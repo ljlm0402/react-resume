@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "my-react-app",
+  "name": "blog",
   "builds": [
     {
       "src": "package.json",
