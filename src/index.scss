@@ -1,0 +1,42 @@
+html {
+  background-color: #333;
+  color: white;
+  font-family: 'Noto Sans KR', sans-serif;
+  body {
+    margin: unset;
+    position: relative;
+  }
+}
+
+h2, h3, h4 {
+  padding: 10px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  color: white;
+  margin: 0;
+  padding: unset;
+  margin: unset;
+}
+
+.github {
+  background-image: url('/assets/skill/devops/github.png');
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  background-size: contain;
+}
+
+iframe {
+  width: 100%;
+  border-width: unset;
+  border-style: unset;
+  height: 300px;
+  @media screen and (max-width: 400px) {
+    height: 180px;
+  }
+}

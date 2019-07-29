@@ -1,11 +1,19 @@
 {
-  "name": "create-react-app",
+  "name": "my-blog",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/jest": "24.0.15",
+    "@types/node": "12.0.12",
+    "@types/react": "16.8.23",
+    "@types/react-dom": "16.8.4",
+    "@types/styled-components": "^4.1.16",
+    "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "styled-components": "^4.3.2",
+    "typescript": "3.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -29,5 +37,23 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "blog",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljlm0402/blog.git"
+  },
+  "keywords": [
+    "blog",
+    "zeit",
+    "react",
+    "now"
+  ],
+  "author": "AGUMON",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ljlm0402/blog/issues"
+  },
+  "homepage": "https://github.com/ljlm0402/blog#readme"
 }
