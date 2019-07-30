@@ -16,6 +16,11 @@ Boilerplate
     - /containers : 내용 요소 파일
     - /interfaces : 상속 파일
 
+- .gitignore : github push 파일 제외하기
+- now.json : now build 설정 파일
+- pacakge.json : npm package dependencies 설정 파일
+- tsconfig.json : typescript 설정 파일
+
 ```
 
 Modules
