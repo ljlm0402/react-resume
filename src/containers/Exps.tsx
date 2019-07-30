@@ -101,8 +101,8 @@ const ExpList: Array<IExpList> = [
                 youtube: 'https://www.youtube.com/embed/64V7ATPeeyM',
                 stack: ['Node.js', 'Javascript'],
                 mywork: [
-                    { title: "RESTful API", content: "Express, mysql, socket.io" },
-                    { title: "View", content: "Ejs, Html, Css, Javascipt" }
+                    { title: "RESTful API", content: "Express, MariaDB, Socket.io, Serialport" },
+                    { title: "View", content: "HTML, Css, Javascipt" }
                 ],
             },
         ],

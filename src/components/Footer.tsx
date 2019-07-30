@@ -22,7 +22,7 @@ const FooterBox = styled.footer`
 export const Footer = (): JSX.Element => {
     return (
         <FooterBox>
-            <a className="github" href="https://github.com/ljlm0402"></a>
+            <a className="github" href="https://github.com/ljlm0402" target="_blank"></a>
         </FooterBox>
     )
 };
