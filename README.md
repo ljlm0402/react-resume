@@ -31,7 +31,7 @@ Modules
 
 Build
 ---------
-<a href="https://zeit.co/">ZEIT</a> - The easiest way yo depoly websites
+<a href="https://zeit.co/">ZEIT</a> - The easiest way to depoly websites
 
 - [1] npm install -g now
 - [2] now login
