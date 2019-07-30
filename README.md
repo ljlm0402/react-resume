@@ -37,8 +37,8 @@ Build
 - [2] now login
 - [3] git clone [repo url]
 
-now dev => development localhost env
-now => login account production env
+* now dev => development localhost env
+* now => login account production env
 
 ++ TIP) Connect Your Github Account
         and Repo Connect, it will be automatically build on push
