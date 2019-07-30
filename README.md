@@ -12,7 +12,7 @@ Boilerplate
     - manifest.json : PWA(Progressive Web App) 웹사이트가 모바일에서 앱처럼 동작 설정 파일
 
 ● /src : 소스 파일 관리
-    - /components : 구성 요소 파일
+    - /components : 구성 요소 파일ßßß
     - /containers : 내용 요소 파일
     - /interfaces : 상속 파일
 
@@ -33,9 +33,9 @@ Build
 ---------
 <a href="https://zeit.co/">ZEIT</a> - The easiest way yo depoly websites
 
-[1] npm install -g now
-[2] now login
-[3] git clone [repo url]
+- [1] npm install -g now
+- [2] now login
+- [3] git clone [repo url]
 
 now dev => development localhost env
 now => login account production env
