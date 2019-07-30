@@ -21,17 +21,17 @@ Boilerplate
 Modules
 ---------
 
-* <a href="https://reactjs.org/">react - JavaScript library for creating user interfaces</a>
+* <a href="https://reactjs.org/">react</a> - JavaScript library for creating user interfaces
 
-* <a href="https://www.styled-components.com/">styled-components - Utilising tagged template literals and the power of CSS,</a>
+* <a href="https://www.styled-components.com/">styled-components</a> - Utilising tagged template literals and the power of CSS
 
-* <a href="https://www.typescriptlang.org/">typescript - language for application-scale JavaScript</a>
+* <a href="https://www.typescriptlang.org/">typescript</a> - language for application-scale JavaScript
 
-* <a href="https://www.npmjs.com/package/now">now - Global Serverless Deployments</a>
+* <a href="https://www.npmjs.com/package/now">now</a> - Global Serverless Deployments
 
 Build
 ---------
-<a href="https://zeit.co/">ZEIT - The easiest way yo depoly websites</a>
+<a href="https://zeit.co/">ZEIT</a> - The easiest way yo depoly websites
 
 [1] npm install -g now
 [2] now login
