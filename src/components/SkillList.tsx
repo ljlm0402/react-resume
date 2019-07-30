@@ -2,8 +2,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// import interface
-import { SkillItem } from './SkillItem';
+// import components
+import { SkillItem } from './index';
+
+// import interfaces
 import { Skill } from '../interfaces/interface';
 
 const List = styled.div`

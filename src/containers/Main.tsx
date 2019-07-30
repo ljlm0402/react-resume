@@ -2,11 +2,11 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// import containers
-import { Profile } from './Profile';
-import { Skills } from './Skills';
-import { Exps } from './Exps';
+// import types
 import { TABLET } from '../types';
+
+// import containers
+import { Profile, Skills, Exps } from './index';
 
 const MainContainer = styled.main`
     display: flex;

@@ -1,7 +1,7 @@
 // import modules
 import React from 'react';
 
-// import interface
+// import interfaces
 import { ILink } from '../interfaces/interface';
 
 /* eslint-disable */

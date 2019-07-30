@@ -2,11 +2,14 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// import type & interfaces
+// import types
 import { TABLET } from '../types';
+
+// import components
+import { Link, Mywork } from './index';
+
 import { IProject } from '../interfaces/interface';
-import { Link } from './Link';
-import { Mywork } from './Mywork';
+
 
 const ProjectItem = styled.li`
     list-style: none;

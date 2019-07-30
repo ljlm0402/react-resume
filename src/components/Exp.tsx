@@ -1,11 +1,15 @@
-// require modules
+// import modules
 import React from 'react';
 import styled from 'styled-components';
 
+// import types
+import { TABLET } from '../types';
+
+// import components
+import { Project } from './index';
+
 // import interface
 import { IExpList } from '../interfaces/interface';
-import { TABLET } from '../types';
-import { Project } from './Project';
 
 const ExpBox = styled.div`
     padding: 5%;

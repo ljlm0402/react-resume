@@ -2,8 +2,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// import components & interfaces
+// import components 
 import { SkillList } from '../components';
+
+// import interfaces
 import { Skill } from '../interfaces/interface';
 
 const SkillBox = styled.section`
@@ -86,12 +88,12 @@ const Tools: Array<Skill> = [
 export const Skills = (): JSX.Element => {
     return (
         <SkillBox>
-            <SkillList list={Application} title="Application" />
-            <SkillList list={Aws} title="Aws" />
-            <SkillList list={Database} title="Database" />
-            <SkillList list={Utilities} title="Utilities" />
-            <SkillList list={DevOps} title="DevOps" />
-            <SkillList list={Tools} title="Tools" />
+            <SkillList title="Application" list={Application} />
+            <SkillList title="Aws" list={Aws} />
+            <SkillList title="Database" list={Database} />
+            <SkillList title="Utilities" list={Utilities} />
+            <SkillList title="DevOps" list={DevOps} />
+            <SkillList title="Tools" list={Tools} />
         </SkillBox>
     )
 };

@@ -2,8 +2,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// import components & interfaces
+// import components 
 import { Exp } from '../components';
+
+// import interfaces
 import { IExpList } from '../interfaces/interface';
 
 const ExpContainer = styled.section`

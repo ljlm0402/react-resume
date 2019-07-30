@@ -1,16 +1,8 @@
-/**
- * @method Skill
- * @description Skill
- */
 export interface Skill {
     name: string;
     url: string;
 };
 
-/**
- * @method IExpList
- * @description IExpList
- */
 export interface IExpList {
     name: string;
     subtitle: string;
@@ -18,10 +10,6 @@ export interface IExpList {
     project: Array<Project>;
 };
 
-/**
- * @method Project
- * @description Project
- */
 export interface Project {
     title: string;
     date: string;
@@ -36,10 +24,6 @@ export interface IProject {
     project: Project;
 };
 
-/**
- * @method Link
- * @description Link
- */
 export interface Link {
     title: string;
     content: string;
@@ -49,10 +33,6 @@ export interface ILink {
     link: Link;
 };
 
-/**
- * @method Mywork
- * @description mywork
- */
 export interface Mywork {
     title: string;
     content: string;

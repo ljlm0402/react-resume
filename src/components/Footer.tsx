@@ -2,7 +2,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// import type
+// import types
 import { MOBILE } from '../types';
 
 const FooterBox = styled.footer`
