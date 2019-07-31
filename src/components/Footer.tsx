@@ -13,6 +13,7 @@ const FooterBox = styled.footer`
     font-size: 1.2rem;
     background-color: #f0f0f0;
     color: black;
+    margin-top: 100px;
     ${MOBILE} {
         font-size: 0.9rem;
     }   
@@ -22,7 +23,9 @@ const FooterBox = styled.footer`
 export const Footer = (): JSX.Element => {
     return (
         <FooterBox>
+            © AGUMON(Kyungmin Lim), All Rights Reserved.
             <a className="github" href="https://github.com/ljlm0402" target="_blank"></a>
+            <a className="tistory" href="https://km0830.tistory.com/" target="_blank"></a>
         </FooterBox>
     )
 };

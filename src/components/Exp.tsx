@@ -9,7 +9,7 @@ import { TABLET } from '../types';
 import { Project } from './index';
 
 // import interface
-import { IExpList } from '../interfaces/interface';
+import { IExpList, IStudyList } from '../interfaces/interface';
 
 const ExpBox = styled.div`
     padding: 5%;
@@ -45,6 +45,24 @@ export const Exp = (props: { career: IExpList }): JSX.Element => {
             <h4>주요 업무 내용</h4>
             <ProjectList>
                 {career.project.map((item: any) => {
+                    return <Project key={item.title} project={item} />
+                })}
+            </ProjectList>
+        </ExpBox>
+    )
+};
+
+export const Study = (props: { study: IStudyList }): JSX.Element => {
+    const { study } = props;
+
+    return (
+        <ExpBox>
+            <Icon src={study.icon} alt={study.name} />
+            <h3>{study.name}</h3>
+            <p>{study.subtitle}</p>
+            <h4>주요 업무 내용</h4>
+            <ProjectList>
+                {study.studys.map((item: any) => {
                     return <Project key={item.title} project={item} />
                 })}
             </ProjectList>

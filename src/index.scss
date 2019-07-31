@@ -6,12 +6,12 @@ html {
     margin: unset;
     position: relative;
   }
-}
+};
 
 h2, h3, h4 {
   padding: 10px 0;
   border-bottom: 1px solid lightgray;
-}
+};
 
 p {
   font-size: 16px;
@@ -21,7 +21,7 @@ p {
   margin: 0;
   padding: unset;
   margin: unset;
-}
+};
 
 .github {
   background-image: url('/assets/skill/devops/github.png');
@@ -29,7 +29,15 @@ p {
   height: 20px;
   margin-left: 10px;
   background-size: contain;
-}
+};
+
+.tistory {
+  background-image: url('/assets/tistory.jpeg');
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  background-size: contain;
+};
 
 iframe {
   width: 100%;
@@ -39,4 +47,4 @@ iframe {
   @media screen and (max-width: 400px) {
     height: 180px;
   }
-}
+};

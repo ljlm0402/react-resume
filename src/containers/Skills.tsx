@@ -23,7 +23,8 @@ const Application: Array<Skill> = [
     { name: "Angular", url: "/assets/skill/application/angular.jpg" },
 
     { name: "GraphQL", url: "/assets/skill/application/graphql.png" },
-    { name: "Apollo", url: "/assets/skill/application/apollo.png" }
+    { name: "Apollo", url: "/assets/skill/application/apollo.png" },
+    { name: "Prisma", url: "/assets/skill/application/prisma.jpg" }
 ];
 
 const Aws: Array<Skill> = [
@@ -44,14 +45,14 @@ const Aws: Array<Skill> = [
     { name: "API Gateway", url: "/assets/skill/aws/api-gateway.png" },
 
     { name: "Route53", url: "/assets/skill/aws/route53.png" },
-    { name: "Cloudfront", url: "/assets/skill/aws/cloudfront.png" },
+    { name: "CloudFront", url: "/assets/skill/aws/cloudfront.png" },
     { name: "Certificate Manager", url: "/assets/skill/aws/acm.png" },
 
     { name: "IAM", url: "/assets/skill/aws/iam.png" },
 
-    { name: "Cloudtrail", url: "/assets/skill/aws/cloudtrail.png" },
-    { name: "Cloudformation", url: "/assets/skill/aws/cloudformation.png" },
-    { name: "Cloudwatch", url: "/assets/skill/aws/cloudwatch.png" }
+    { name: "CloudTrail", url: "/assets/skill/aws/cloudtrail.png" },
+    { name: "CloudFormation", url: "/assets/skill/aws/cloudformation.png" },
+    { name: "CloudWatch", url: "/assets/skill/aws/cloudwatch.png" }
 ];
 
 const Database: Array<Skill> = [
@@ -63,14 +64,18 @@ const Database: Array<Skill> = [
 const Utilities: Array<Skill> = [
     { name: "Google Analytics", url: "/assets/skill/utilities/analytics.png" },
     { name: "Google Drive", url: "/assets/skill/utilities/drive.png" },
-    { name: "Swagger", url: "/assets/skill/utilities/swagger.png" }
+    { name: "Swagger", url: "/assets/skill/utilities/swagger.png" },
+    { name: "Zeit Now", url: "/assets/skill/utilities/zeit.png" }
 ];
 
 const DevOps: Array<Skill> = [
     { name: "GitHub", url: "/assets/skill/devops/github.png" },
     { name: "Docker", url: "/assets/skill/devops/docker.png" },
+    { name: "Docker compose", url: "/assets/skill/devops/docker-compose.png" },
     { name: "Npm", url: "/assets/skill/devops/npm.png" },
-    { name: "Yarn", url: "/assets/skill/devops/yarn.jpg" }
+    { name: "Yarn", url: "/assets/skill/devops/yarn.jpg" },
+    { name: "Puppeteer", url: "/assets/skill/devops/puppeteer.png" },
+    { name: "Mocha", url: "/assets/skill/devops/mocha.png" }
 ];
 
 const Tools: Array<Skill> = [
@@ -81,6 +86,7 @@ const Tools: Array<Skill> = [
     { name: "Postman", url: "/assets/skill/tools/postman.png" },
     { name: "iTerm", url: "/assets/skill/tools/iterm.png" },
     { name: "Sequel Pro", url: "/assets/skill/tools/sequelpro.png" },
+    { name: "QueryPie", url: "/assets/skill/tools/querypie.png" },
     { name: "MySQL Workbench", url: "/assets/skill/tools/workbench.jpeg" },
     { name: "Robo 3T", url: "/assets/skill/tools/robomongo.png" }
 ];

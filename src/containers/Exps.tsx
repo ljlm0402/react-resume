@@ -10,6 +10,7 @@ import { IExpList } from '../interfaces/interface';
 
 const ExpContainer = styled.section`
     padding: 5% 10%;
+    margin-top: 30px;
     border: 1px solid black;
     background-color: white;
     color: black;
@@ -84,12 +85,22 @@ const ExpList: Array<IExpList> = [
                     { title: "Email", content: "Express, aws-sdk(S3-upload), ejs, html-pdf(html to pdf render), nodemailer" }
                 ]
             },
-        ],
+
+            {
+                title: 'Fooding Scheduler 서버',
+                date: '2019.04 ~ 2019.05',
+                subtitle: '고객의 주문 스텝을 스케줄링을 통해서 변경하는 서비스 개발',
+                stack: ['Node.js', 'Javascript', 'Aws'],
+                mywork: [
+                    { title: "SCHEDULER", content: "Express, axios(HTTP client), node-schedule, moment(time utill)"}
+                ]
+            }
+        ]
     },
 
     {
         name: '(주) 씨큐프라임',
-        subtitle: '외식 프랜차이즈 전문 솔루션 회사에서 무인주문결제기(KIOSK)단독으로 개발 하였습니다.',
+        subtitle: '외식 프랜차이즈 전문 솔루션 회사에서 무인주문결제기(KIOSK) 단독으로 개발하였습니다.',
         icon: '/assets/work/secuprime.jpg',
         project: [
             {
@@ -105,10 +116,10 @@ const ExpList: Array<IExpList> = [
                 mywork: [
                     { title: "RESTful API", content: "Express, MariaDB, Socket.io, Serialport" },
                     { title: "View", content: "HTML, Css, Javascipt" }
-                ],
-            },
-        ],
-    },
+                ]
+            }
+        ]
+    }
 ];
 
 export const Exps = (): JSX.Element => {

@@ -6,7 +6,7 @@ import styled from 'styled-components';
 import { TABLET } from '../types';
 
 // import containers
-import { Profile, Skills, Exps } from './index';
+import { Profile, Skills, Exps, Studys } from './index';
 
 const MainContainer = styled.main`
     display: flex;
@@ -27,6 +27,7 @@ export const Main = (): JSX.Element => {
                 <Profile />
                 <Skills />
                 <Exps />
+                <Studys />
             </MainContainer>
         </>
     )

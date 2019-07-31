@@ -43,7 +43,7 @@ const SkillItemBox = styled.div`
 `;
 
 const Item = styled.div`
-    height: 150px;
+    height: 120px;
     border-radius: 5px;
     border: solid 1px #eaeaea;
     background-color: #ffffff;

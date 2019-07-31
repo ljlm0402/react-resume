@@ -11,6 +11,7 @@ import { Skill } from '../interfaces/interface';
 const List = styled.div`
     display: flex;
     flex-wrap: wrap;
+    margin-top: 30px;
 `;
 
 export const SkillList = (props: { title: string, list: Array<Skill> }) => {
