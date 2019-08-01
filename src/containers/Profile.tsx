@@ -58,7 +58,7 @@ export const Profile = (): JSX.Element => {
                 <p>
                     <span role="img" aria-label="macbook">💻</span> Javascript, Typescript 주 언어로 개발하고 있습니다. <br />
                     <span role="img" aria-label="youtube">📺</span>Youtube 컨텐츠를 제작을 진행중에 있습니다. <br />
-                    <span role="img" aria-label="drive">💾</span><ProfileLink href="https://drive.google.com/open?id=1YSzql9hqYy1oRoozHzaEc2DvFQjebGzW" target="_blank"> 컨텐츠 참고자료</ProfileLink><br />
+                    <span role="img" aria-label="drive">💾</span><ProfileLink href="https://drive.google.com/open?id=17E5xiVTG2l69j6ndtpPeZCl5GtWlUV_b" target="_blank"> 컨텐츠 참고자료</ProfileLink><br />
                     <span role="img" aria-label="mac">🖥</span><ProfileLink href="https://bit.ly/2GC9CNG" target="_blank"> 대학교 포폴</ProfileLink>
                 </p>
             </ProfileInfo>
