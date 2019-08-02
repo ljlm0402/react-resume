@@ -29,7 +29,8 @@ const ExpList: Array<IExpList> = [
                 link: [
                     { title: "푸딩 홈페이지", content: "https://www.fooding.io" }
                 ],
-                stack: ['Angular', 'Rxjs', 'Typescript', 'Scss', 'Node.js', 'Javascript', 'Aws'],
+                youtube: 'https://www.youtube.com/embed/jQ1YNnLlUKs',
+                stack: ['Angular', 'Scss', 'Rxjs', 'Typescript', 'Node.js', 'Javascript', 'Aws'],
                 mywork: [
                     { title: "RESTful API", content: "Express, knex(SQL Query builder), axios(HTTP client)" },
                     { title: "서버 구축", content: "웹 서버(Nginx), WAS(Node.js, HTTP, HTTPS), ACM" },
@@ -45,7 +46,8 @@ const ExpList: Array<IExpList> = [
                 title: 'Fooding 관리자 페이지',
                 date: '2018.10 ~ ',
                 subtitle: 'Fooding 서비스를 관리하기 위한 관리자 페이지 구축',
-                stack: ['Agular', 'Rxjs', 'Typescript', 'Scss', 'Node.js', 'Javascript', 'Aws'],
+                youtube: 'https://www.youtube.com/embed/jeXTYYE-4JU',
+                stack: ['Agular', 'Scss', 'Rxjs', 'Typescript', 'Node.js', 'Javascript', 'Aws'],
                 mywork: [
                     { title: "RESTful API", content: "Express, knex(SQL Query builder), axios(HTTP client), aws-sdk(S3-upload)" },
                     { title: "서버 구축", content: "웹 서버(Apache), WAS(Node.js, HTTP, HTTPS), ACM" },
@@ -64,8 +66,8 @@ const ExpList: Array<IExpList> = [
                 link: [
                     { title: "푸딩 배송기사 앱", content: "https://play.google.com/store/apps/details?id=app.fooding.delivery" }
                 ],
-                youtube: 'https://www.youtube.com/embed/_tYefWU1kzY',
-                stack: ['Ionic', 'Rxjs', 'Typescript', 'Scss', 'Node.js', 'Javascript', 'Aws'],
+                youtube: 'https://www.youtube.com/embed/-IUGiugc8kM',
+                stack: ['Ionic', 'Scss', 'Rxjs', 'Typescript', 'Node.js', 'Javascript', 'Aws'],
                 mywork: [
                     { title: "RESTful API", content: "Express, knex(SQL Query builder), axios(HTTP client)" },
                     { title: "서버 구축", content: "WAS(Node.js, HTTP, HTTPS), ACM" },
@@ -78,7 +80,8 @@ const ExpList: Array<IExpList> = [
             {
                 title: 'Fooding Push 서버',
                 date: '2018.10 ~ 2019.05',
-                subtitle: '고객의 주문 및 문의를 카카오톡 알림톡 서비스(이지톡)과 연동하여 고객, 공급자한테 알림 서비스를 제공 및 Email 서비스를 개발',
+                subtitle: '카카오톡 알림톡 서비스(이지톡)과 연동하여 고객, 공급자한테 알림 서비스 / Jandi hook으로 내부적 알림 제공 및 Email 서비스를 개발',
+                youtube: 'https://www.youtube.com/embed/hcjFL6LDWYQ',
                 stack: ['Node.js', 'Javascript', 'Aws'],
                 mywork: [
                     { title: "SMS", content: "Express, axios(HTTP client)" },
@@ -92,7 +95,7 @@ const ExpList: Array<IExpList> = [
                 subtitle: '고객의 주문 스텝을 스케줄링을 통해서 변경하는 서비스 개발',
                 stack: ['Node.js', 'Javascript', 'Aws'],
                 mywork: [
-                    { title: "SCHEDULER", content: "Express, axios(HTTP client), node-schedule, moment(time utill)"}
+                    { title: "SCHEDULER", content: "Express, axios(HTTP client), node-schedule, moment(time utill)" }
                 ]
             }
         ]

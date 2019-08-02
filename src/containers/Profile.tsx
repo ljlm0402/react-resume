@@ -21,7 +21,7 @@ const ProfileInfo = styled.div`
 
     p {
         color: black;
-        margin: auto;
+        margin: 10px 0 0 20px;
     }
 
     img {
@@ -36,14 +36,72 @@ const ProfileInfo = styled.div`
     }
 `;
 
-const ProfileLink = styled.a`
-    text-decoration: none;
-    color: #0100FF;
-    :hover {
-        text-decoration: underline;
+const Google = styled.p`
+    background: #fff;
+    color: #000000;
+    padding: 2px 4px;
+    border-radius: 3px;
+    display: inline-block;
+    border: 1px solid black;
+
+    img{
+        width: 18px; 
+        height: 18px;
+    }
+
+    a {
+        text-decoration: none;
+        color:#000000;
+        :hover {
+            text-decoration: underline;
+        }
     }
 `;
 
+const Youtube = styled.p`
+    background: #ff0000;
+    color: #fff;
+    padding: 2px 4px;
+    border-radius: 3px;
+    display: inline-block;
+
+    img{
+        width: 18px; 
+        height: 18px;
+    }
+
+    a {
+        text-decoration: none;
+        color:#fff;
+        :hover {
+            text-decoration: underline;
+        }
+    }
+`;
+
+const Wix = styled.p`
+    background: #fff;
+    color: #000000;
+    padding: 2px 4px;
+    border-radius: 3px;
+    display: inline-block;
+    border: 1px solid black;
+
+    img{
+        width: 18px; 
+        height: 18px;
+    }
+
+    a {
+        text-decoration: none;
+        color:#000000;
+        :hover {
+            text-decoration: underline;
+        }
+    }
+`;
+
+/* eslint-disable */
 export const Profile = (): JSX.Element => {
     return (
         <ProfileBox>
@@ -56,10 +114,22 @@ export const Profile = (): JSX.Element => {
                     </span>
                 </ProfileImage>
                 <p>
-                    <span role="img" aria-label="macbook">💻</span> Javascript, Typescript 주 언어로 개발하고 있습니다. <br />
-                    <span role="img" aria-label="youtube">📺</span>Youtube 컨텐츠를 제작을 진행중에 있습니다. <br />
-                    <span role="img" aria-label="drive">💾</span><ProfileLink href="https://drive.google.com/open?id=17E5xiVTG2l69j6ndtpPeZCl5GtWlUV_b" target="_blank"> 컨텐츠 참고자료</ProfileLink><br />
-                    <span role="img" aria-label="mac">🖥</span><ProfileLink href="https://bit.ly/2GC9CNG" target="_blank"> 대학교 포폴</ProfileLink>
+                    <p><span role="img" aria-label="macbook">💻</span> Javascript, Typescript 주 언어로 개발하고 있습니다.</p> <br />
+
+                    <Youtube>
+                        <img src="/assets/profile/youtube.png" alt="youtube" />
+                        <a href="https://bit.ly/2OBEBzT" target="_blank">Youtube</a>
+                    </Youtube>  Youtube 링크<br />
+
+                    <Google>
+                        <img src="/assets/profile/google-drive.png" alt="google-drive" />
+                        <a href="https://bit.ly/2yw0SEd" target="_blank">Google Drive</a>
+                    </Google>  Youtube 컨텐츠를 기획자료입니다.(수정중)<br />
+
+                    <Wix>
+                        <img src="/assets/profile/wix.png" alt="wix" />
+                        <a href="https://bit.ly/2GC9CNG" target="_blank">Wix</a>
+                    </Wix>  대학교 시절 포트폴리오입니다.<br />
                 </p>
             </ProfileInfo>
         </ProfileBox>
