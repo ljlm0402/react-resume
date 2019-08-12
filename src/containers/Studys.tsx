@@ -46,8 +46,8 @@ const StudyList: Array<IStudyList> = [
                 date: '2018.08 ~ ',
                 subtitle: '피쿠닉 서비스를 관리하기 위한 페이지 구축',
                 link: [
-                    { title: "참고 디자인", content: "http://admin.lightsinthesky.io/docs#components" },
-                    { title: "Github", content: "https://github.com/PIKUNIC/pikunic-service-web" }
+                    { title: "참고 디자인", content: "http://admin.lightsinthesky.io/docs" },
+                    { title: "Github", content: "https://github.com/PIKUNIC/pikunic-admin-web" }
                 ],
                 stack: ['React', 'Redux', 'Webpack', 'Node.js', 'Javascript'],
                 mywork: [

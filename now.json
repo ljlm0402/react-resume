@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "blog",
+  "name": "resume",
   "builds": [
     {
       "src": "package.json",

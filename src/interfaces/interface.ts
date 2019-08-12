@@ -63,7 +63,7 @@ export interface ILink {
 
 /**
  * @method Mywork
- * @description 내가 했던 역할
+ * @description 역할
  */
 export interface Mywork {
     title: string;

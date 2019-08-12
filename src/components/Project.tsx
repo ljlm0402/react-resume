@@ -8,6 +8,7 @@ import { TABLET } from '../types';
 // import components
 import { Link, Mywork } from './index';
 
+// import interfaces
 import { IProject } from '../interfaces/interface';
 
 
