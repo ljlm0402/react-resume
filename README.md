@@ -1,26 +1,28 @@
 > Resume
 
+[KOREA🇰🇷](./README.ko.md)
+
 Boilerplate
 ------------
 
 ```sh
 
-● /public : 정적 파일 관리
-    - /assets : 이미지 파일 관리
-    - favicon.ico : 파비콘
-    - index.html : index 페이지
-    - manifest.json : PWA(Progressive Web App) 웹사이트가 모바일에서 앱처럼 동작 설정 파일
+● /public : Static file dir
+    - /assets : Image file dir
+    - favicon.ico : home page icon
+    - index.html : index page
+    - manifest.json : PWA(Progressive Web App) 
 
-● /src : 소스 파일 관리
-    - /components : 구성 요소 파일ßßß
-    - /containers : 내용 요소 파일
-    - /interfaces : 상속 파일
+● /src : source file dir
+    - /components : components dir
+    - /containers : containers dir
+    - /interfaces : interfaces dir
 
-- now.json : now build 설정 파일
-- tsconfig.json : typescript 설정 파일
-- pacakge.json : npm package dependencies 설정 파일
-- .gitignore : github 제외 파일 설정
-- .nowignore : now build 제외 파일 설정
+- now.json : now build env
+- tsconfig.json : typescript env
+- pacakge.json : npm package
+- .gitignore : github ignore env
+- .nowignore : now build ignore env
 
 ```
 
@@ -37,14 +39,17 @@ Modules
 
 Build
 ---------
-<a href="https://zeit.co/">ZEIT</a> - The easiest way to depoly websites
+<a href="https://zeit.co/docs">ZEIT Now</a> - The easiest way to depoly websites
 
-- [1] npm install -g now
-- [2] now login
-- [3] git clone [repo url]
+- [1] npm install -g now  /  Install now global
+- [2] now login  /  now account login
+- [3] git clone [git@github.com:ljlm0402/resume.git]  /  git clone repo
 
-* now dev => development localhost env
-* now => login account production env
+* Command
+    * now dev => development localhost env
+    * now => login account project build
 
-++ TIP) Connect Your Github Account
-        and Repo Connect, it will be automatically build on push
+++ TIP) GIT INTEGRATION
+        Select a GitHub reposiroty to automatically deploy every commit you push
+
+<img src="https://github.com/ljlm0402/resume/blob/master/screenshot/step_1.png" height=150> <img src="https://github.com/ljlm0402/resume/blob/master/screenshot/step_2.png" height=150>

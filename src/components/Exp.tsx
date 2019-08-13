@@ -15,6 +15,7 @@ const ExpBox = styled.div`
     padding: 5%;
     border: 1px solid lightgray;
     margin: 5vh 0;
+
     p {
         color: black;
         margin-bottom: 10px;
@@ -23,6 +24,7 @@ const ExpBox = styled.div`
 
 const ProjectList = styled.ul`
     list-style: none;
+    
     ${TABLET} {
         list-style: none;
         padding: unset;

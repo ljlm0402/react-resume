@@ -33,6 +33,7 @@ const SkillItemBox = styled.div`
             margin-left: 0;
         }
     }
+
     span {
         display: block;
         text-align: center;
@@ -57,6 +58,7 @@ const Item = styled.div`
         object-fit: contain;
         transform-origin: 50% 55%;
         transition: transform .5s ease;
+        
         :hover {
             transform: scale(1.25);
         }

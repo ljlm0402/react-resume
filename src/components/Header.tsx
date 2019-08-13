@@ -25,7 +25,7 @@ const HeaderBox = styled.header`
 export const Header = (): JSX.Element => {
     return (
         <HeaderBox>
-            <h1>Resume<span role="img" aria-label="dinore">🦖</span></h1>
+            <h1>Resume<span role='img' aria-label='dinore'>🦖</span></h1>
         </HeaderBox>
     )
 };

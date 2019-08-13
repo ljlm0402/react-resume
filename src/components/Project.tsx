@@ -17,14 +17,17 @@ const ProjectItem = styled.li`
     margin: 20px 0;
     padding: 20px 0;
     border-bottom: 1px dotted lightgray;
+
     :nth-child(1) {
         padding: 0 0 20px 0;
     }
+
     :nth-last-child(1) {
         border-bottom: none;
     }
     ul {
         margin: 20px 0;
+
         ${TABLET} {
             list-style: none;
             padding: unset;
@@ -43,9 +46,11 @@ const Stack = styled.span`
     margin: 0 10px 10px 0;
     padding: 10px;
     border-radius: 10px;
+
     :nth-child(1) {
         margin-left: 0;
     }
+    
     :hover {
         background-color: #222;
         color: white;

@@ -12,6 +12,7 @@ const Links = styled.li`
 const Href = styled.a`
     text-decoration: none;
     color: #646464;
+
     :hover {
         text-decoration: underline;
     }
@@ -22,6 +23,6 @@ export const Link = (props: ILink): JSX.Element => {
     const { link } = props;
 
     return (
-        <Links><Href href={link.content} target="_blank">{link.title}</Href></Links>
+        <Links><Href href={link.content} target='_blank'>{link.title}</Href></Links>
     );
 };

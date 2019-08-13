@@ -15,6 +15,7 @@ const MainContainer = styled.main`
     flex-direction: column;
     width: 1024px;
     margin: 0 auto;
+    
     ${TABLET} {
         width: 90%;
     }
