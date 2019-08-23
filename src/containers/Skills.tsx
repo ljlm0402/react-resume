@@ -23,7 +23,7 @@ const Application: Array<Skill> = [
     { name: 'Redux', url: '/assets/skill/application/redux.png' }, // 상태를 관리하기위한 오픈 소스 자바스크립트 라이브러리
 
     { name: 'Angular', url: '/assets/skill/application/angular.jpg' }, // 자바스크립트 기반의 오픈 소스 프론트엔드 웹 애플리케이션 프레임 워크
-    { name: 'Sass', url: '/assets/skill/application/sass.png' }, // css를 보완하기 위한 기술로, 스타일 시트 언어
+    { name: 'Scss', url: '/assets/skill/application/sass.png' }, // css를 보완하기 위한 기술로, 스타일 시트 언어
     { name: 'Rxjs', url: '/assets/skill/application/rxjs.png' }, // 비동기 및 이벤트 기반 프로그램을 작성하기 위한 라이브러리
 
     { name: 'HTML5', url: '/assets/skill/application/html.png' }, // 월드 와이드 웹(WWW)의 핵심 마크업 언어
@@ -90,8 +90,9 @@ const DevOps: Array<Skill> = [
     { name: 'Docker compose', url: '/assets/skill/devops/docker-compose.png' }, // 멀티 컨테이너 Docker 응용 프로그램을 정의하고 실행하기위한 도구
     { name: 'Npm', url: '/assets/skill/devops/npm.png' }, // 자바스크립트 패키지 관리자
     { name: 'Yarn', url: '/assets/skill/devops/yarn.jpg' }, // 자바스크립트 패키지 관리자
-    { name: 'Grunt', url: '/assets/skill/devops/grunt.png' }, // Task 기반의 자바스크립트용 커맨드 라인 빌드 툴
     { name: 'Webpack', url: '/assets/skill/devops/webpack.png'}, // 자바스크립트 모듈 번들러
+    { name: 'Grunt', url: '/assets/skill/devops/grunt.png' }, // Task 기반의 자바스크립트용 커맨드 라인 빌드 툴
+    { name: 'Babel', url: '/assets/skill/devops/babel.png' }, // 다음 버전의 자바스크립트 문법을 현재 사용 가능한 문법으로 변환
     { name: 'Puppeteer', url: '/assets/skill/devops/puppeteer.png' }, // Headless chrome API
     { name: 'Mocha', url: '/assets/skill/devops/mocha.png' } // 자바스크립트 테스트 프레임 워크
 ];

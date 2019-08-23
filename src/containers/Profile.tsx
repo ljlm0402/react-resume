@@ -21,7 +21,7 @@ const ProfileInfo = styled.div`
 
     p {
         color: black;
-        margin: 10px 0 0 20px;
+        margin: 10px 10px 0 20px;
     }
 
     img {
@@ -36,20 +36,67 @@ const ProfileInfo = styled.div`
     }
 `;
 
-const Google = styled.p`
+const Wix = styled.p`
     background: #fff;
-    color: #000000;
-    padding: 2px 4px;
+    padding: 5px 5px;
     border-radius: 3px;
     display: inline-block;
     border: 1px solid black;
 
-    img{
-        width: 18px; 
-        height: 18px;
+    img {
+        width: 30px; 
+        height: 30px;
+        vertical-align: middle;
     }
 
     a {
+        font-weight: bold;
+        text-decoration: none;
+        color:#000000;
+        :hover {
+            text-decoration: underline;
+        }
+    }
+`;
+
+const Blog = styled.p`
+    background: #273333;
+    padding: 5px 5px;
+    border-radius: 3px;
+    display: inline-block;
+    border: 1px solid black;
+
+    img {
+        width: 30px; 
+        height: 30px;
+        vertical-align: middle;
+    }
+
+    a {
+        font-weight: bold;
+        text-decoration: none;
+        color:#fff;
+        :hover {
+            text-decoration: underline;
+        }
+    }
+`;
+
+const Google = styled.p`
+    background: #fff;
+    padding: 5px 5px;
+    border-radius: 3px;
+    display: inline-block;
+    border: 1px solid black;
+
+    img {
+        width: 30px; 
+        height: 30px;
+        vertical-align: middle;
+    }
+
+    a {
+        font-weight: bold;
         text-decoration: none;
         color:#000000;
         :hover {
@@ -60,41 +107,20 @@ const Google = styled.p`
 
 const Youtube = styled.p`
     background: #ff0000;
-    color: #fff;
-    padding: 2px 4px;
+    padding: 5px 5px;
     border-radius: 3px;
     display: inline-block;
 
-    img{
-        width: 18px; 
-        height: 18px;
+    img {
+        width: 30px; 
+        height: 30px;
+        vertical-align: middle;
     }
 
     a {
+        font-weight: bold;
         text-decoration: none;
         color:#fff;
-        :hover {
-            text-decoration: underline;
-        }
-    }
-`;
-
-const Wix = styled.p`
-    background: #fff;
-    color: #000000;
-    padding: 2px 4px;
-    border-radius: 3px;
-    display: inline-block;
-    border: 1px solid black;
-
-    img{
-        width: 18px; 
-        height: 18px;
-    }
-
-    a {
-        text-decoration: none;
-        color:#000000;
         :hover {
             text-decoration: underline;
         }
@@ -116,20 +142,25 @@ export const Profile = (): JSX.Element => {
                 <p>
                     <p><span role='img' aria-label='macbook'>💻</span> Javascript, Typescript 주 언어로 개발하고 있습니다.</p> <br />
 
+                    <Wix>
+                        <img src='/assets/profile/wix.png' alt='wix' />
+                        <a href='https://bit.ly/2GC9CNG' target='_blank'>Wix</a>
+                    </Wix>     대학교 시절 포트폴리오입니다.<br />
+
+                    <Blog>
+                        <img src='/assets/profile/netlify.png' alt='netlify' />
+                        <a href='https://bit.ly/2OBEBzT' target='_blank'>Netlify</a>
+                    </Blog>     <span role='img' aria-label='blog'>🔮</span>개인 블로그를 통해 기술적인 정보를 공유하고 있습니다.<br />
+
                     <Youtube>
                         <img src='/assets/profile/youtube.png' alt='youtube' />
                         <a href='https://bit.ly/2OBEBzT' target='_blank'>Youtube</a>
-                    </Youtube>  Youtube 링크<br />
+                    </Youtube>     Youtube 링크<br />
 
                     <Google>
                         <img src='/assets/profile/google-drive.png' alt='google drive' />
                         <a href='https://bit.ly/2yw0SEd' target='_blank'>Google Drive</a>
-                    </Google>  Youtube 컨텐츠를 기획자료입니다.(수정중)<br />
-
-                    <Wix>
-                        <img src='/assets/profile/wix.png' alt='wix' />
-                        <a href='https://bit.ly/2GC9CNG' target='_blank'>Wix</a>
-                    </Wix>  대학교 시절 포트폴리오입니다.<br />
+                    </Google>     Youtube 컨텐츠를 기획자료입니다.(수정중)<br />
                 </p>
             </ProfileInfo>
         </ProfileBox>

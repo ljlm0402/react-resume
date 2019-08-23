@@ -41,7 +41,6 @@ export interface IStudy {
  */
 export interface Project {
     title: string;
-    date: string;
     subtitle: string;
     link?: Array<Link>;
     youtube?: string;

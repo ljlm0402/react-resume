@@ -24,7 +24,6 @@ const StudyList: Array<IStudyList> = [
         studys: [
             {
                 title: 'API 서버 구축',
-                date: '2018.06 ~ ',
                 subtitle: '안드로이드 앱 / WPF 응용프로그램 / React Web 서버 구축',
                 link: [
                     { title: '카카오 플러스 친구', content: 'https://pf.kakao.com/_yeVcj' },
@@ -33,26 +32,46 @@ const StudyList: Array<IStudyList> = [
                 ],
                 stack: [ 'Node.js', 'Javascript', 'Mysql', 'NCP(Naver Cloud Platform)' ],
                 mywork: [
-                    { title: 'RESTful API', content: "Express, knex(SQL Query builder), net(TCP Client)" },
-                    { title: '서버 구축', content: 'WAS(Node.js, HTTP)' },
-                    { title: '데이터베이스', content: 'Server in database(MySQL)' },
-                    { title: '트래픽 로드 밸런싱', content: 'PM2(Advanced Node.js Process manager)' },
-                    { title: '스토리지', content: 'Object storage' }
+                    { title: 'RESTful API', content: 'Express, knex(SQL Query builder), net(TCP Client)' },
+                    { title: 'Server Build', content: 'WAS(Node.js, HTTP)' },
+                    { title: 'Database', content: 'Server in database(MySQL)' },
+                    { title: 'Load Balancing', content: 'PM2(Advanced Node.js Process manager)' },
+                    { title: 'Storage', content: 'Object storage' }
                 ]
             },
 
             {
                 title: '피쿠닉 관리자 페이지',
-                date: '2018.08 ~ ',
                 subtitle: '피쿠닉 서비스를 관리하기 위한 페이지 구축',
                 link: [
                     { title: '참고 디자인', content: 'http://admin.lightsinthesky.io/docs' },
                     { title: 'Github', content: 'https://github.com/PIKUNIC/pikunic-admin-web' }
                 ],
-                stack: [ 'React', 'Redux', 'Node.js', 'Javascript' ],
+                stack: [ 'React', 'Redux', 'Webpack', 'Bable', 'Grunt', 'Node.js', 'Javascript' ],
                 mywork: [
-                    { title: 'Frontend', content: 'draft.js(Editor Framework), Webpack(Module bundler), babel(Javascript Compiler), grunt(Task Runner)' },
-                    { title: 'Server Build', content: 'Web server(Ngnix), WAS(Node.js, HTTP, HTTPS)' }
+                    { title: 'Server Build', content: 'Web server(Ngnix), WAS(Node.js, HTTP, HTTPS)' },
+                    { title: 'Front', content: 'draft.js(Editor Framework)' }
+                ]
+            }
+        ]
+    },
+
+    {
+        name: '블로그',
+        subtitle: '나만의 개발 블로그 구축',
+        studys: [
+            {
+                title: '나만의 블로그를 만들어보자',
+                subtitle: 'Gatsby라는 React 기반의 Static Web Generator를 사용하여 정적 웹사이트 제작',
+                link: [
+                    { title: '블로그 링크', content: 'https://ljlm0402.netlify.com/' },
+                    { title: 'Github', content: 'https://github.com/ljlm0402/blog' }
+                ],
+                stack: [ 'React', 'Gastsby', 'Node.js', 'Javascript', 'Netlify' ],
+                mywork: [
+                    { title: 'Front', content: 'Markdown page upload' },
+                    { title: 'Server Build', content: 'Github hook, netlify' },
+                    { title: 'Comments Service', content: 'Github utterances' }
                 ]
             }
         ]

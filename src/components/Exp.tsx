@@ -41,7 +41,7 @@ export const Exp = (props: { career: IExpList }): JSX.Element => {
 
     return (
         <ExpBox>
-            <Icon src={career.icon} alt={career.name} />
+            {career.icon ? <Icon src={career.icon} alt={career.name} /> : null}
             <h3>{career.name}</h3>
             <p>{career.subtitle}</p>
             <h4>주요 업무 내용</h4>
@@ -59,7 +59,7 @@ export const Study = (props: { study: IStudyList }): JSX.Element => {
 
     return (
         <ExpBox>
-            <Icon src={study.icon} alt={study.name} />
+            {study.icon ? <Icon src={study.icon} alt={study.name} /> : null}
             <h3>{study.name}</h3>
             <p>{study.subtitle}</p>
             <h4>주요 업무 내용</h4>
