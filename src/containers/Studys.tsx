@@ -69,8 +69,8 @@ const StudyList: Array<IStudyList> = [
                 ],
                 stack: [ 'React', 'Gastsby', 'Node.js', 'Javascript', 'Netlify' ],
                 mywork: [
-                    { title: 'Front', content: 'Markdown page upload' },
                     { title: 'Server Build', content: 'Github hook, netlify' },
+                    { title: 'Front', content: 'Markdown page upload' },
                     { title: 'Comments Service', content: 'Github utterances' }
                 ]
             }
