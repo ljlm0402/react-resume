@@ -140,8 +140,6 @@ export const Profile = (): JSX.Element => {
                     </span>
                 </ProfileImage>
                 <p>
-                    {/* <p><span role='img' aria-label='macbook'>💻</span> Javascript, Typescript 주 언어로 개발하고 있습니다.</p> <br /> */}
-
                     <Wix>
                         <img src='/assets/profile/wix.png' alt='wix' />
                         <a href='https://bit.ly/2GC9CNG' target='_blank'>Wix</a>

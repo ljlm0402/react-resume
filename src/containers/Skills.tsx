@@ -13,8 +13,8 @@ const SkillBox = styled.section`
 
 const Application: Array<Skill> = [
     { name: 'Node.js', url: '/assets/skill/application/nodejs.png' }, // 자바스크립트 런타임에 구축 된 플랫폼
-    { name: 'Javascript', url: '/assets/skill/application/javascript.jpeg' }, // 객체 기반의 스크립트 프로그래밍 언어
-    { name: 'Typescript', url: '/assets/skill/application/typescript.jpg' }, // 자바스크립트의 슈퍼셋인 오픈소스 프로그래밍 언어
+    { name: 'JavaScript', url: '/assets/skill/application/javascript.jpeg' }, // 객체 기반의 스크립트 프로그래밍 언어
+    { name: 'TypeScript', url: '/assets/skill/application/typescript.jpg' }, // 자바스크립트의 슈퍼셋인 오픈소스 프로그래밍 언어
 
     { name: 'Nginx', url: '/assets/skill/application/nginx.png' }, // 트래픽이 많은 웹사이트 확장성을 위해 설계한 비동기 이벤트 기반 구조의 웹 서버
     { name: 'Apache', url: '/assets/skill/application/apache.png' }, // HTTP 웹 서버
@@ -24,13 +24,13 @@ const Application: Array<Skill> = [
 
     { name: 'Angular', url: '/assets/skill/application/angular.jpg' }, // 자바스크립트 기반의 오픈 소스 프론트엔드 웹 애플리케이션 프레임 워크
     { name: 'Scss', url: '/assets/skill/application/sass.png' }, // css를 보완하기 위한 기술로, 스타일 시트 언어
-    { name: 'Rxjs', url: '/assets/skill/application/rxjs.png' }, // 비동기 및 이벤트 기반 프로그램을 작성하기 위한 라이브러리
+    { name: 'RxJs', url: '/assets/skill/application/rxjs.png' }, // 비동기 및 이벤트 기반 프로그램을 작성하기 위한 라이브러리
 
     { name: 'HTML5', url: '/assets/skill/application/html.png' }, // 월드 와이드 웹(WWW)의 핵심 마크업 언어
-    { name: 'Css', url: '/assets/skill/application/css.png' }, // 스타일 시트 언어
+    { name: 'CSS 3', url: '/assets/skill/application/css.png' }, // 스타일 시트 언어
     
     { name: 'Bootstrap', url: '/assets/skill/application/bootstrap.png' }, // 오픈형 UI 플러그인
-    { name: 'JQuery', url: '/assets/skill/application/jquery.png' }, // 사이드 조작을 단순화 하도록 설계된 크로스 플랫폼의 자바스크립트 라이브러리
+    { name: 'jQuery', url: '/assets/skill/application/jquery.png' }, // 사이드 조작을 단순화 하도록 설계된 크로스 플랫폼의 자바스크립트 라이브러리
     
     { name: 'Gatsby', url: '/assets/skill/application/gatsby.png' }, // 정적 HTML 생성기
     { name: 'GraphQL', url: '/assets/skill/application/graphql.png' }, // 어플리케이션 레이어 쿼리 언어
@@ -80,21 +80,28 @@ const Utilities: Array<Skill> = [
     { name: 'Google Analytics', url: '/assets/skill/utilities/analytics.png' }, // 웹 로그 분석
     { name: 'Google Drive', url: '/assets/skill/utilities/drive.png' }, // 클라우드 기반 협업도구이자 파일저장/공유 서비스
     { name: 'Swagger', url: '/assets/skill/utilities/swagger.png' }, // RESTful 웹 서비스를 설계, 빌드, 문서화 도구
-    { name: 'ZEIT Now', url: '/assets/skill/utilities/zeit.png' }, // 정적 사이트 및 서버리스 기능을 위한 클라우드 플랫폼
+    { name: 'Zeit Now', url: '/assets/skill/utilities/zeit.png' }, // 정적 사이트 및 서버리스 기능을 위한 클라우드 플랫폼
     { name: 'Netlify', url: '/assets/skill/utilities/netlify.png' } // 지속적 배포, 서버리스 기능을 갖춘 클라우드 플랫폼
 ];
 
 const DevOps: Array<Skill> = [
     { name: 'GitHub', url: '/assets/skill/devops/github.png' }, // 프로그램 등의 소스 코드 관리를 위한 분산 버전 관리 시스템
+    
     { name: 'Docker', url: '/assets/skill/devops/docker.png' }, // 컨테이너를 사용해 어플리케이션을 신속하게 구축, 테스트 및 배포할 수 있는 소프트웨어 플랫폼 
-    { name: 'Docker compose', url: '/assets/skill/devops/docker-compose.png' }, // 멀티 컨테이너 Docker 응용 프로그램을 정의하고 실행하기위한 도구
-    { name: 'Npm', url: '/assets/skill/devops/npm.png' }, // 자바스크립트 패키지 관리자
+    { name: 'Docker Compose', url: '/assets/skill/devops/docker-compose.png' }, // 멀티 컨테이너 Docker 응용 프로그램을 정의하고 실행하기위한 도구
+    
+    { name: 'npm', url: '/assets/skill/devops/npm.png' }, // 자바스크립트 패키지 관리자
     { name: 'Yarn', url: '/assets/skill/devops/yarn.jpg' }, // 자바스크립트 패키지 관리자
+    
     { name: 'Webpack', url: '/assets/skill/devops/webpack.png'}, // 자바스크립트 모듈 번들러
     { name: 'Grunt', url: '/assets/skill/devops/grunt.png' }, // Task 기반의 자바스크립트용 커맨드 라인 빌드 툴
     { name: 'Babel', url: '/assets/skill/devops/babel.png' }, // 다음 버전의 자바스크립트 문법을 현재 사용 가능한 문법으로 변환
+    { name: 'ESLint', url: '/assets/skill/devops/eslint.jpg' }, // 자바스크립트 코드 품질 도구
+
     { name: 'Puppeteer', url: '/assets/skill/devops/puppeteer.png' }, // Headless chrome API
-    { name: 'Mocha', url: '/assets/skill/devops/mocha.png' } // 자바스크립트 테스트 프레임 워크
+    
+    { name: 'Mocha', url: '/assets/skill/devops/mocha.png' }, // 자바스크립트 테스트 프레임 워크
+    { name: 'Jest', url: '/assets/skill/devops/jest.png' } // 자바스크립트 테스트 프레임 워크
 ];
 
 const Tools: Array<Skill> = [
@@ -106,8 +113,8 @@ const Tools: Array<Skill> = [
 
     { name: 'Sequel Pro', url: '/assets/skill/tools/sequelpro.png' }, // 오픈소스 MySQL 데이터베이스 도구
     { name: 'QueryPie', url: '/assets/skill/tools/querypie.png' }, // Database IDE
-    { name: 'MySQL Workbench', url: '/assets/skill/tools/workbench.jpeg' }, // SQL 개발과 관리, 데이터베이스 설계, 생성 유지를 위한 데이터베이스 설계 도구
-    { name: 'Robo 3T', url: '/assets/skill/tools/robomongo.png' }, // MongoDB 관리 툴
+    { name: 'MySQL WorkBench', url: '/assets/skill/tools/workbench.jpeg' }, // SQL 개발과 관리, 데이터베이스 설계, 생성 유지를 위한 데이터베이스 설계 도구
+    { name: 'Robomongo', url: '/assets/skill/tools/robomongo.png' }, // MongoDB 관리 툴
 
     { name: 'SourceTree', url: '/assets/skill/tools/sourcetree.png' }, // Git GUI 
 
