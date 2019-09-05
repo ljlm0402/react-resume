@@ -111,6 +111,8 @@ const Tools: Array<Skill> = [
     { name: 'Visual Studio Code', url: '/assets/skill/tools/vscode.jpeg' }, // 마이크로소프트가 만든 소스 코드 편집기
     { name: 'Atom', url: '/assets/skill/tools/atom.png' }, // Github가 개발한 소스코드 편집기
 
+    { name: 'ndm', url: '/assets/skill/tools/ndm.png' }, // npm desktop manager
+
     { name: 'Sequel Pro', url: '/assets/skill/tools/sequelpro.png' }, // 오픈소스 MySQL 데이터베이스 도구
     { name: 'QueryPie', url: '/assets/skill/tools/querypie.png' }, // Database IDE
     { name: 'MySQL WorkBench', url: '/assets/skill/tools/workbench.jpeg' }, // SQL 개발과 관리, 데이터베이스 설계, 생성 유지를 위한 데이터베이스 설계 도구
