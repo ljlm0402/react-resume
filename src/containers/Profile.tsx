@@ -157,7 +157,7 @@ export const Profile = (): JSX.Element => {
 
                     <Google>
                         <img src='/assets/profile/google-drive.png' alt='google drive' />
-                        <a href='https://bit.ly/2yw0SEd' target='_blank'>Google Drive</a>
+                        <a href='https://bit.ly/2krz2Ww' target='_blank'>Google Drive</a>
                     </Google>Youtube 컨텐츠를 기획자료입니다. (현재 컨텐츠 검토 중)<br />
                 </p>
             </ProfileInfo>
