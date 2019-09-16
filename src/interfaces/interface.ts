@@ -13,6 +13,7 @@ export interface Skill {
  */
 export interface IExpList {
     name: string;
+    date: string;
     subtitle: string;
     icon?: string;
     project: Array<Project>;
@@ -40,11 +41,10 @@ export interface IStudy {
  * @description 프로젝트 정보
  */
 export interface Project {
-    title: string;
-    subtitle: string;
+    title?: string;
+    subtitle?: string;
     link?: Array<Link>;
     youtube?: string;
-    stack: Array<string>;
     mywork: Array<Mywork>;
 };
 

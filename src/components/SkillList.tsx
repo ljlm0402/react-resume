@@ -18,7 +18,7 @@ export const SkillList = (props: { title: string, list: Array<Skill> }) => {
     const { title, list } = props;
     return (
         <>
-            <h3>{title}</h3>
+            <h3>> {title}</h3>
             <List>
                 {list.map(item => {
                     return <SkillItem name={item.name} url={item.url} key={item.name} />

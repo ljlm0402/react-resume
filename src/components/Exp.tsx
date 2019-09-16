@@ -42,9 +42,8 @@ export const Exp = (props: { career: IExpList }): JSX.Element => {
     return (
         <ExpBox>
             {career.icon ? <Icon src={career.icon} alt={career.name} /> : null}
+            <p>{career.date}</p>
             <h3>{career.name}</h3>
-            <p>{career.subtitle}</p>
-            <h4>주요 업무 내용</h4>
             <ProjectList>
                 {career.project.map((item: any) => {
                     return <Project key={item.title} project={item} />
@@ -61,11 +60,10 @@ export const Study = (props: { study: IStudyList }): JSX.Element => {
         <ExpBox>
             {study.icon ? <Icon src={study.icon} alt={study.name} /> : null}
             <h3>{study.name}</h3>
-            <p>{study.subtitle}</p>
-            <h4>주요 업무 내용</h4>
+            {study.subtitle ? <p>{study.subtitle}</p>: null}
             <ProjectList>
                 {study.studys.map((item: any) => {
-                    return <Project key={item.title} project={item} />
+                    return <Project key={item.title ? item.title : null} project={item} />
                 })}
             </ProjectList>
         </ExpBox>

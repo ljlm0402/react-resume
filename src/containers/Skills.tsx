@@ -12,7 +12,7 @@ const SkillBox = styled.section`
 `;
 
 const Application: Array<Skill> = [
-    { name: 'Node.js', url: '/assets/skill/application/nodejs.png' }, // 자바스크립트 런타임에 구축 된 플랫폼
+    { name: 'Node Js', url: '/assets/skill/application/nodejs.png' }, // 자바스크립트 런타임에 구축 된 플랫폼
     { name: 'JavaScript', url: '/assets/skill/application/javascript.jpeg' }, // 객체 기반의 스크립트 프로그래밍 언어
     { name: 'TypeScript', url: '/assets/skill/application/typescript.jpg' }, // 자바스크립트의 슈퍼셋인 오픈소스 프로그래밍 언어
 
@@ -26,12 +26,12 @@ const Application: Array<Skill> = [
     { name: 'Scss', url: '/assets/skill/application/sass.png' }, // css를 보완하기 위한 기술로, 스타일 시트 언어
     { name: 'RxJs', url: '/assets/skill/application/rxjs.png' }, // 비동기 및 이벤트 기반 프로그램을 작성하기 위한 라이브러리
 
-    { name: 'HTML5', url: '/assets/skill/application/html.png' }, // 월드 와이드 웹(WWW)의 핵심 마크업 언어
-    { name: 'CSS 3', url: '/assets/skill/application/css.png' }, // 스타일 시트 언어
-    
+    { name: 'HTML', url: '/assets/skill/application/html.png' }, // 월드 와이드 웹(WWW)의 핵심 마크업 언어
+    { name: 'CSS', url: '/assets/skill/application/css.png' }, // 스타일 시트 언어
+
     { name: 'Bootstrap', url: '/assets/skill/application/bootstrap.png' }, // 오픈형 UI 플러그인
     { name: 'jQuery', url: '/assets/skill/application/jquery.png' }, // 사이드 조작을 단순화 하도록 설계된 크로스 플랫폼의 자바스크립트 라이브러리
-    
+
     { name: 'Gatsby', url: '/assets/skill/application/gatsby.png' }, // 정적 HTML 생성기
     { name: 'GraphQL', url: '/assets/skill/application/graphql.png' }, // 어플리케이션 레이어 쿼리 언어
     { name: 'Apollo', url: '/assets/skill/application/apollo.png' }, // GraphQL 서버, 클라이언트 구현을 제공해주는 프레임워크
@@ -86,20 +86,20 @@ const Utilities: Array<Skill> = [
 
 const DevOps: Array<Skill> = [
     { name: 'GitHub', url: '/assets/skill/devops/github.png' }, // 프로그램 등의 소스 코드 관리를 위한 분산 버전 관리 시스템
-    
+
     { name: 'Docker', url: '/assets/skill/devops/docker.png' }, // 컨테이너를 사용해 어플리케이션을 신속하게 구축, 테스트 및 배포할 수 있는 소프트웨어 플랫폼 
     { name: 'Docker Compose', url: '/assets/skill/devops/docker-compose.png' }, // 멀티 컨테이너 Docker 응용 프로그램을 정의하고 실행하기위한 도구
-    
+
     { name: 'npm', url: '/assets/skill/devops/npm.png' }, // 자바스크립트 패키지 관리자
     { name: 'Yarn', url: '/assets/skill/devops/yarn.jpg' }, // 자바스크립트 패키지 관리자
-    
-    { name: 'Webpack', url: '/assets/skill/devops/webpack.png'}, // 자바스크립트 모듈 번들러
+
+    { name: 'Webpack', url: '/assets/skill/devops/webpack.png' }, // 자바스크립트 모듈 번들러
     { name: 'Grunt', url: '/assets/skill/devops/grunt.png' }, // Task 기반의 자바스크립트용 커맨드 라인 빌드 툴
     { name: 'Babel', url: '/assets/skill/devops/babel.png' }, // 다음 버전의 자바스크립트 문법을 현재 사용 가능한 문법으로 변환
     { name: 'ESLint', url: '/assets/skill/devops/eslint.jpg' }, // 자바스크립트 코드 품질 도구
 
     { name: 'Puppeteer', url: '/assets/skill/devops/puppeteer.png' }, // Headless chrome API
-    
+
     { name: 'Mocha', url: '/assets/skill/devops/mocha.png' }, // 자바스크립트 테스트 프레임 워크
     { name: 'Jest', url: '/assets/skill/devops/jest.png' } // 자바스크립트 테스트 프레임 워크
 ];
@@ -122,15 +122,16 @@ const Tools: Array<Skill> = [
 
     { name: 'iTerm', url: '/assets/skill/tools/iterm.png' }, // macOS 용 GPL 라이센스 터미널 에뮬레이터
     { name: 'Postman', url: '/assets/skill/tools/postman.png' }, // 웹 API 테스트 환경을 지원하는 프로그램
-    
+
     { name: 'Zeplin', url: '/assets/skill/tools/zeplin.jpg' } // 디자인 가이드 자동화 툴
 ];
 
 export const Skills = (): JSX.Element => {
     return (
         <SkillBox>
+            <h1>Skill</h1>
             <SkillList title='Application' list={Application} />
-            <SkillList title='Aws' list={Aws} />
+            <SkillList title='AWS' list={Aws} />
             <SkillList title='Database' list={Database} />
             <SkillList title='Utilities' list={Utilities} />
             <SkillList title='DevOps' list={DevOps} />

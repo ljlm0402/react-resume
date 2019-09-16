@@ -35,49 +35,21 @@ const ProjectItem = styled.li`
     }
 `;
 
-const StackList = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-`;
-
-const Stack = styled.span`
-    background-color: lightgray;
-    color: #6c757d;
-    margin: 0 10px 10px 0;
-    padding: 10px;
-    border-radius: 10px;
-
-    :nth-child(1) {
-        margin-left: 0;
-    }
-    
-    :hover {
-        background-color: #222;
-        color: white;
-    }
-`;
-
 /* eslint-disable */
 export const Project = (props: IProject): JSX.Element => {
     const { project } = props;
 
     return (
         <ProjectItem>
-            <h4>{project.title}</h4>
-            <p>{project.subtitle}</p>
-
+            {project.title ? <h4> > {project.title}</h4> : null}
+            {project.subtitle ? <p>{project.subtitle}</p>: null}
             <ul>
                 {project.link ? project.link.map((item: any) => {
-                    return <Link key={item.title} link={item} />
-                }) : null}
+                    return <Link key={item.title} link={item} />})
+                : null}
             </ul>
 
-
-            <StackList>
-                {project.stack.map((item: string) => {
-                    return <Stack key={item}>{item}</Stack>
-                })}
-            </StackList>
+            {project.link ? <hr /> : null}
 
             <ul>
                 {project.mywork.map((work: any) => {

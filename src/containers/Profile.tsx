@@ -94,7 +94,6 @@ export const Profile = (): JSX.Element => {
                         <strong>임경민</strong> 26살
                     </span>
                 </ProfileImage>
-                <p>
                     <ul>
                         <li>깃허브:
                             <Github>
@@ -109,7 +108,6 @@ export const Profile = (): JSX.Element => {
                             </Netlify>
                         </li>
                     </ul>
-                </p>
             </ProfileInfo>
         </ProfileBox>
     )

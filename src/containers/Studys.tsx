@@ -23,19 +23,18 @@ const StudyList: Array<IStudyList> = [
         icon: '/assets/study/pikunic.jpg',
         studys: [
             {
-                title: 'API 서버 구축',
-                subtitle: '안드로이드 앱 / WPF 응용프로그램 / React Web 서버 구축',
+                title: 'RESTful API 구축',
+                subtitle: '안드로이드 앱 / WPF 응용프로그램 / React Web RESTful API 서버 구축',
                 link: [
                     { title: '카카오 플러스 친구', content: 'https://pf.kakao.com/_yeVcj' },
                     { title: '네이버 예약', content: 'https://m.booking.naver.com/booking/6/bizes/233078?area=bbt&lang=ko' },
                     { title: 'Github', content: 'https://github.com/PIKUNIC/pikunic-service-api' }
                 ],
-                stack: [ 'Node.js', 'Javascript', 'Mysql', 'NCP(Naver Cloud Platform)' ],
                 mywork: [
-                    { title: 'RESTful API', content: 'Express, knex(SQL Query builder), net(TCP Client)' },
-                    { title: 'Server Build', content: 'WAS(Node.js, HTTP)' },
+                    { title: 'Backend', content: 'Express, JavaScript' },
+                    { title: 'Server Build', content: 'WAS(Node Js, HTTP)' },
                     { title: 'Database', content: 'Server in database(MySQL)' },
-                    { title: 'Load Balancing', content: 'PM2(Advanced Node.js Process manager)' },
+                    { title: 'Load Balancing', content: 'PM2(Advanced Node Js Process manager)' },
                     { title: 'Storage', content: 'Object storage' }
                 ]
             },
@@ -47,30 +46,26 @@ const StudyList: Array<IStudyList> = [
                     { title: '참고 디자인', content: 'http://admin.lightsinthesky.io/docs' },
                     { title: 'Github', content: 'https://github.com/PIKUNIC/pikunic-admin-web' }
                 ],
-                stack: [ 'React', 'Redux', 'Webpack', 'Bable', 'Grunt', 'Node.js', 'Javascript' ],
                 mywork: [
-                    { title: 'Server Build', content: 'Web server(Ngnix), WAS(Node.js, HTTP, HTTPS)' },
-                    { title: 'Front', content: 'draft.js(Editor Framework)' }
+                    { title: 'Frontend', content: 'React, TypeScript, Scss, Webpack' },
+                    { title: 'Server Build', content: 'Web server(Ngnix), WAS(Node Js, HTTP, HTTPS)' },
                 ]
             }
         ]
     },
 
     {
-        name: '블로그',
-        subtitle: '나만의 개발 블로그 구축',
+        name: '개발 블로그',
+        subtitle: '정적 페이지 호스팅 서비스를 이용하여 개인 개발 블로그 제작',
         studys: [
             {
-                title: '나만의 블로그를 만들어보자',
-                subtitle: 'Gatsby라는 React 기반의 Static Web Generator를 사용하여 정적 웹사이트 제작',
                 link: [
                     { title: '블로그 링크', content: 'https://ljlm0402.netlify.com/' },
                     { title: 'Github', content: 'https://github.com/ljlm0402/blog' }
                 ],
-                stack: [ 'React', 'Gastsby', 'Node.js', 'Javascript', 'Netlify' ],
                 mywork: [
-                    { title: 'Server Build', content: 'Github hook, netlify' },
-                    { title: 'Front', content: 'Markdown page upload' },
+                    { title: 'Frontend', content: 'React, Gatsby, JavaScript, Scss, Markdown' },
+                    { title: 'Server Build', content: 'Node Js, Github Hook, Netlify' },
                     { title: 'Comments Service', content: 'Github utterances' }
                 ]
             }
@@ -81,7 +76,7 @@ const StudyList: Array<IStudyList> = [
 export const Studys = (): JSX.Element => {
     return (
         <StudyContainer>
-            <h2>Study</h2>
+            <h2>Project</h2>
             {StudyList.map(item => {
                 return <Study study={item} key={item.name} />
             })}
