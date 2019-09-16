@@ -53,7 +53,7 @@ const ExpList: Array<IExpList> = [
                     { title: 'Server Build', content: 'Web server(Apache), WAS(Node Js, HTTP, HTTPS), ACM' },
                     { title: 'Database', content: 'RDS(MySQL)' },
                     { title: 'Load Balancing', content: 'ALB, Route53' },
-                    { title: 'Storage', content: 'S3, Cloudfront' },
+                    { title: 'Storage', content: 'S3, CloudFront' },
                     { title: 'Container Orchestration', content: 'Docker, EC2, ECR, ECS' },
                     { title: 'CI / CD', content: 'Github webhook, CodeBuild, CodePipeline' },
                     { title: 'Monitoring', content: 'CloudWatch' }

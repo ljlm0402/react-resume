@@ -28,7 +28,7 @@ const StudyList: Array<IStudyList> = [
                 link: [
                     { title: '카카오 플러스 친구', content: 'https://pf.kakao.com/_yeVcj' },
                     { title: '네이버 예약', content: 'https://m.booking.naver.com/booking/6/bizes/233078?area=bbt&lang=ko' },
-                    { title: 'Github', content: 'https://github.com/PIKUNIC/pikunic-service-api' }
+                    { title: 'GitHub', content: 'https://github.com/PIKUNIC/pikunic-service-api' }
                 ],
                 mywork: [
                     { title: 'Backend', content: 'Express, JavaScript' },
@@ -44,7 +44,7 @@ const StudyList: Array<IStudyList> = [
                 subtitle: '피쿠닉 서비스를 관리하기 위한 페이지 구축',
                 link: [
                     { title: '참고 디자인', content: 'http://admin.lightsinthesky.io/docs' },
-                    { title: 'Github', content: 'https://github.com/PIKUNIC/pikunic-admin-web' }
+                    { title: 'GitHub', content: 'https://github.com/PIKUNIC/pikunic-admin-web' }
                 ],
                 mywork: [
                     { title: 'Frontend', content: 'React, TypeScript, Scss, Webpack' },
@@ -61,12 +61,29 @@ const StudyList: Array<IStudyList> = [
             {
                 link: [
                     { title: '블로그 링크', content: 'https://ljlm0402.netlify.com/' },
-                    { title: 'Github', content: 'https://github.com/ljlm0402/blog' }
+                    { title: 'GitHub', content: 'https://github.com/ljlm0402/blog' }
                 ],
                 mywork: [
                     { title: 'Frontend', content: 'React, Gatsby, JavaScript, Scss, Markdown' },
-                    { title: 'Server Build', content: 'Node Js, Github Hook, Netlify' },
+                    { title: 'Server Build', content: 'Node Js, Github webhook, Netlify' },
                     { title: 'Comments Service', content: 'Github utterances' }
+                ]
+            }
+        ]
+    },
+
+    {
+        name: '이력서',
+        subtitle: '정적 페이지 호스팅 서비스를 이용하여 개인 이력서 홈페이지 제작',
+        studys: [
+            {
+                link: [
+                    { title: '이력서 링크', content: 'https://resume.ljlm0402.now.sh' },
+                    { title: 'GitHub', content: 'https://github.com/ljlm0402/resume' }
+                ],
+                mywork: [
+                    { title: 'Frontend', content: 'React, TypeScript, Scss' },
+                    { title: 'Server Build', content: 'Node Js, Github webhook, Zeit Now' }
                 ]
             }
         ]
