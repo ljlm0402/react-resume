@@ -88,7 +88,7 @@ export const Profile = (): JSX.Element => {
         <ProfileBox>
             <ProfileInfo>
                 <ProfileImage>
-                    <img src="./assets/profile.jpeg" alt='프로필' /><br />
+                    <img src="/assets/profile.jpeg" alt='프로필' /><br />
                     <span>
                         <span role='img' aria-label='developer'>👨🏻‍💻</span>
                         <strong>임경민</strong> 26살

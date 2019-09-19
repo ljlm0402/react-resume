@@ -33,7 +33,7 @@ const ExpList: Array<IExpList> = [
                 mywork: [
                     { title: 'Backend', content: 'Express, JavaScript' },
                     { title: 'Frontend', content: 'Angular, TypeScript, RxJs, Scss, Webpack' },
-                    { title: 'Server Build', content: 'Web server(Nginx), WAS(Node Js, HTTP, HTTPS), ACM' },
+                    { title: 'Server Build', content: 'Web server(Nginx), WAS(Node Js, HTTP, HTTPS(ACM)), AWS' },
                     { title: 'Database', content: 'RDS(MySQL)' },
                     { title: 'Load Balancing', content: 'ALB, Route53' },
                     { title: 'Storage', content: 'S3, CloudFront' },
@@ -50,7 +50,7 @@ const ExpList: Array<IExpList> = [
                 mywork: [
                     { title: 'Backend', content: 'Express, JavaScript' },
                     { title: 'Frontend', content: 'Angular, TypeScript, RxJs, Scss, Webpack' },
-                    { title: 'Server Build', content: 'Web server(Apache), WAS(Node Js, HTTP, HTTPS), ACM' },
+                    { title: 'Server Build', content: 'Web server(Apache), WAS(Node Js, HTTP, HTTPS(ACM)), AWS' },
                     { title: 'Database', content: 'RDS(MySQL)' },
                     { title: 'Load Balancing', content: 'ALB, Route53' },
                     { title: 'Storage', content: 'S3, CloudFront' },
@@ -70,7 +70,7 @@ const ExpList: Array<IExpList> = [
                 mywork: [
                     { title: 'Backend', content: 'Express, JavaScript' },
                     { title: 'Frontend', content: 'Ionic, TypeScript, RxJs, Scss, Webpack, Firebase' },
-                    { title: 'Server Build', content: 'Web server(Nginx), WAS(Node.js, HTTP, HTTPS), ACM' },
+                    { title: 'Server Build', content: 'Web server(Nginx), WAS(Node Js, HTTP, HTTPS(ACM)), AWS' },
                     { title: 'Database', content: 'RDS(MySQL)' },
                     { title: 'Load Balancing', content: 'ALB, Route53' },
                     { title: 'Monitoring', content: 'CloudWatch' }
@@ -83,7 +83,7 @@ const ExpList: Array<IExpList> = [
                 youtube: 'https://www.youtube.com/embed/hcjFL6LDWYQ',
                 mywork: [
                     { title: 'Backend', content: 'Express, JavaScript' },
-                    { title: 'Server Build', content: 'WAS(Node Js, HTTP, HTTPS), ACM' },
+                    { title: 'Server Build', content: 'WAS(Node Js, HTTP, HTTPS(ACM)), AWS' },
                     { title: 'Database', content: 'RDS(MySQL)' },
                     { title: 'Load Balancing', content: 'ALB, Route53' },
                     { title: 'Storage', content: 'S3, CloudFront' },
@@ -98,7 +98,7 @@ const ExpList: Array<IExpList> = [
                 subtitle: '주문 현황 자동으로 변경하는 스케줄링 서버 개발',
                 mywork: [
                     { title: 'Backend', content: 'Express, JavaScript' },
-                    { title: 'Server Build', content: 'WAS(Node Js, HTTP, HTTPS), ACM' },
+                    { title: 'Server Build', content: 'WAS(Node Js, HTTP, HTTPS(ACM)), AWS' },
                     { title: 'Load balancing', content: 'ALB, Route53' },
                     { title: 'Container Orchestration', content: 'Docker, EC2, ECR, ECS' },
                     { title: 'CI / CD', content: 'Github webhook, CodeBuild, CodePipeline' },
@@ -125,7 +125,7 @@ const ExpList: Array<IExpList> = [
                 mywork: [
                     { title: 'Backend', content: 'Express, JavaScript' },
                     { title: 'Frontend', content: 'EJS(Embedded JavaScript templates), HTML, CSS, jQuery' },
-                    { title: 'Server Build', content: 'WAS(Node Js, HTTP)' },
+                    { title: 'Server Build', content: 'WAS(Node Js, HTTP), ASUS Tinker Board(Linux)' },
                     { title: 'Database', content: 'Server in database(MariaDB)' },
                     { title: 'Load Balancing', content: 'PM2(Advanced Node Js Process manager)' }
                 ]

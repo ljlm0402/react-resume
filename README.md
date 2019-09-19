@@ -3,12 +3,12 @@
 [KOREA🇰🇷](./README.ko.md)
 
 Boilerplate
-------------
+-----------
 
 ```sh
 
-● /public : Static file dir
-    - /assets : Image file dir
+● /public : static file dir
+    - /assets : image file dir
     - favicon.ico : home page icon
     - index.html : index page
     - manifest.json : PWA(Progressive Web App) 
@@ -27,7 +27,7 @@ Boilerplate
 ```
 
 Modules
----------
+-------
 
 * <a href="https://reactjs.org/">react</a> - JavaScript library for creating user interfaces
 
@@ -38,7 +38,8 @@ Modules
 * <a href="https://www.npmjs.com/package/now">now</a> - Global Serverless Deployments
 
 Build
----------
+-----
+
 <a href="https://zeit.co/docs">ZEIT Now</a> - The easiest way to depoly websites
 
 - [1] npm install -g now  /  Install now global
@@ -53,3 +54,8 @@ Build
         Select a GitHub reposiroty to automatically deploy every commit you push
 
 <img src="https://github.com/ljlm0402/resume/blob/master/screenshot/step_1.png" height=150> <img src="https://github.com/ljlm0402/resume/blob/master/screenshot/step_2.png" height=150>
+
+Link
+----
+
+* <a href="https://ljlm0402.netlify.com/project/resume/1">Blog</a>

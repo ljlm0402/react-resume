@@ -3,11 +3,11 @@
 [영어🇺🇸](./README.md)
 
 보일러플레이트
-------------
+----------
 
 ```sh
 
-● /public : 정작 파일 관리
+● /public : 정적 파일 관리
     - /assets : 이미지 파일
     - favicon.ico : 홈페이지 아이콘 (파비콘)
     - index.html : index 페이지
@@ -27,7 +27,7 @@
 ```
 
 모듈
----------
+---
 
 * <a href="https://reactjs.org/">리액트</a> - 자바스크립트 프론트엔드 라이브러리
 
@@ -38,7 +38,7 @@
 * <a href="https://www.npmjs.com/package/now">나우</a> - 서버리스 개발도구
 
 빌드
----------
+---
 <a href="https://zeit.co/docs">ZEIT Now</a> - 정적 사이트 및 서버리스 기능을 위한 클라우드 플랫폼
 
 - [1] npm install -g now  /  now 모듈 전역 설치
@@ -53,3 +53,8 @@
         레포지토리 연동 시, 푸시를 할 때마다 커밋을 자동으로 배포
 
 <img src="https://github.com/ljlm0402/resume/blob/master/screenshot/step_1.png" height=150> <img src="https://github.com/ljlm0402/resume/blob/master/screenshot/step_2.png" height=150>
+
+링크
+---
+
+* <a href="https://ljlm0402.netlify.com/project/resume/1">블로그</a>

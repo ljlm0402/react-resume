@@ -32,7 +32,7 @@ const StudyList: Array<IStudyList> = [
                 ],
                 mywork: [
                     { title: 'Backend', content: 'Express, JavaScript' },
-                    { title: 'Server Build', content: 'WAS(Node Js, HTTP)' },
+                    { title: 'Server Build', content: 'WAS(Node Js, HTTP), NCP' },
                     { title: 'Database', content: 'Server in database(MySQL)' },
                     { title: 'Load Balancing', content: 'PM2(Advanced Node Js Process manager)' },
                     { title: 'Storage', content: 'Object storage' }
@@ -40,7 +40,7 @@ const StudyList: Array<IStudyList> = [
             },
 
             {
-                title: '피쿠닉 관리자 페이지',
+                title: '피쿠닉 관리자',
                 subtitle: '피쿠닉 서비스를 관리하기 위한 페이지 구축',
                 link: [
                     { title: '참고 디자인', content: 'http://admin.lightsinthesky.io/docs' },
@@ -48,7 +48,7 @@ const StudyList: Array<IStudyList> = [
                 ],
                 mywork: [
                     { title: 'Frontend', content: 'React, TypeScript, Scss, Webpack' },
-                    { title: 'Server Build', content: 'Web server(Ngnix), WAS(Node Js, HTTP, HTTPS)' },
+                    { title: 'Server Build', content: 'Web server(Ngnix), WAS(Node Js, HTTP), NCP' },
                 ]
             }
         ]
@@ -82,7 +82,7 @@ const StudyList: Array<IStudyList> = [
                     { title: 'GitHub', content: 'https://github.com/ljlm0402/resume' }
                 ],
                 mywork: [
-                    { title: 'Frontend', content: 'React, TypeScript, Scss' },
+                    { title: 'Frontend', content: 'React, TypeScript, Scss, styled-components' },
                     { title: 'Server Build', content: 'Node Js, Github webhook, Zeit Now' }
                 ]
             }
