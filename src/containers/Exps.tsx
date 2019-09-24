@@ -32,7 +32,7 @@ const ExpList: Array<IExpList> = [
                 youtube: 'https://www.youtube.com/embed/jQ1YNnLlUKs',
                 mywork: [
                     { title: 'Backend', content: 'Express, JavaScript' },
-                    { title: 'Frontend', content: 'Angular, TypeScript, RxJs, Scss, Webpack' },
+                    { title: 'Frontend', content: 'Angular, TypeScript, RxJs, Scss' },
                     { title: 'Server Build', content: 'Web server(Nginx), WAS(Node Js, HTTP, HTTPS(ACM)), AWS' },
                     { title: 'Database', content: 'RDS(MySQL)' },
                     { title: 'Load Balancing', content: 'ALB, Route53' },
@@ -49,8 +49,8 @@ const ExpList: Array<IExpList> = [
                 youtube: 'https://www.youtube.com/embed/jeXTYYE-4JU',
                 mywork: [
                     { title: 'Backend', content: 'Express, JavaScript' },
-                    { title: 'Frontend', content: 'Angular, TypeScript, RxJs, Scss, Webpack' },
-                    { title: 'Server Build', content: 'Web server(Apache), WAS(Node Js, HTTP, HTTPS(ACM)), AWS' },
+                    { title: 'Frontend', content: 'Angular, TypeScript, RxJs, Scss' },
+                    { title: 'Server Build', content: 'Web server(Nginx), WAS(Node Js, HTTP, HTTPS(ACM)), AWS' },
                     { title: 'Database', content: 'RDS(MySQL)' },
                     { title: 'Load Balancing', content: 'ALB, Route53' },
                     { title: 'Storage', content: 'S3, CloudFront' },
@@ -69,10 +69,12 @@ const ExpList: Array<IExpList> = [
                 youtube: 'https://www.youtube.com/embed/-IUGiugc8kM',
                 mywork: [
                     { title: 'Backend', content: 'Express, JavaScript' },
-                    { title: 'Frontend', content: 'Ionic, TypeScript, RxJs, Scss, Webpack, Firebase' },
+                    { title: 'Frontend', content: 'Ionic, TypeScript, RxJs, Scss, Firebase' },
                     { title: 'Server Build', content: 'Web server(Nginx), WAS(Node Js, HTTP, HTTPS(ACM)), AWS' },
                     { title: 'Database', content: 'RDS(MySQL)' },
                     { title: 'Load Balancing', content: 'ALB, Route53' },
+                    { title: 'Container Orchestrtion', content: 'Docker, EC2, ECR, ECS' },
+                    { title: 'CI / CD', content: 'Github webhook, CodeBuild, CodePipeline' },
                     { title: 'Monitoring', content: 'CloudWatch' }
                 ]
             },
@@ -100,8 +102,6 @@ const ExpList: Array<IExpList> = [
                     { title: 'Backend', content: 'Express, JavaScript' },
                     { title: 'Server Build', content: 'WAS(Node Js, HTTP, HTTPS(ACM)), AWS' },
                     { title: 'Load balancing', content: 'ALB, Route53' },
-                    { title: 'Container Orchestration', content: 'Docker, EC2, ECR, ECS' },
-                    { title: 'CI / CD', content: 'Github webhook, CodeBuild, CodePipeline' },
                     { title: 'Monitoring', content: 'CloudWatch' }
                 ]
             }
@@ -125,9 +125,11 @@ const ExpList: Array<IExpList> = [
                 mywork: [
                     { title: 'Backend', content: 'Express, JavaScript' },
                     { title: 'Frontend', content: 'EJS(Embedded JavaScript templates), HTML, CSS, jQuery' },
-                    { title: 'Server Build', content: 'WAS(Node Js, HTTP), ASUS Tinker Board(Linux)' },
+                    { title: 'Server Build', content: 'WAS(Node Js, HTTP), ASUS Tinker Board(ubuntu)' },
                     { title: 'Database', content: 'Server in database(MariaDB)' },
-                    { title: 'Load Balancing', content: 'PM2(Advanced Node Js Process manager)' }
+                    { title: 'Load Balancing', content: 'PM2(Advanced Node Js Process manager)' },
+                    { title: 'Storage', content: 'S3, CloudFront' },
+                    { title: 'Monitoring', content: 'WhaTap' }
                 ]
             }
         ]

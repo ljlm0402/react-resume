@@ -49,6 +49,7 @@ const StudyList: Array<IStudyList> = [
                 mywork: [
                     { title: 'Frontend', content: 'React, TypeScript, Scss, Webpack' },
                     { title: 'Server Build', content: 'Web server(Ngnix), WAS(Node Js, HTTP), NCP' },
+                    { title: 'Storage', content: 'Object storage' }
                 ]
             }
         ]
@@ -65,7 +66,7 @@ const StudyList: Array<IStudyList> = [
                 ],
                 mywork: [
                     { title: 'Frontend', content: 'React, Gatsby, JavaScript, Scss, Markdown' },
-                    { title: 'Server Build', content: 'Node Js, Github webhook, Netlify' },
+                    { title: 'Server Build', content: 'Node Js, Netlify, Github webhook' },
                     { title: 'Comments Service', content: 'Github utterances' }
                 ]
             }
@@ -83,7 +84,7 @@ const StudyList: Array<IStudyList> = [
                 ],
                 mywork: [
                     { title: 'Frontend', content: 'React, TypeScript, Scss, styled-components' },
-                    { title: 'Server Build', content: 'Node Js, Github webhook, Zeit Now' }
+                    { title: 'Server Build', content: 'Node Js, Zeit Now, Github webhook' }
                 ]
             }
         ]

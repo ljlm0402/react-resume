@@ -28,14 +28,14 @@ const Application: Array<Skill> = [
 
     { name: 'HTML', url: '/assets/skill/application/html.png' }, // 월드 와이드 웹(WWW)의 핵심 마크업 언어
     { name: 'CSS', url: '/assets/skill/application/css.png' }, // 스타일 시트 언어
-
     { name: 'Bootstrap', url: '/assets/skill/application/bootstrap.png' }, // 오픈형 UI 플러그인
     { name: 'jQuery', url: '/assets/skill/application/jquery.png' }, // 사이드 조작을 단순화 하도록 설계된 크로스 플랫폼의 자바스크립트 라이브러리
 
     { name: 'Gatsby', url: '/assets/skill/application/gatsby.png' }, // 정적 HTML 생성기
-    { name: 'GraphQL', url: '/assets/skill/application/graphql.png' }, // 어플리케이션 레이어 쿼리 언어
-    { name: 'Apollo', url: '/assets/skill/application/apollo.png' }, // GraphQL 서버, 클라이언트 구현을 제공해주는 프레임워크
-    { name: 'Prisma', url: '/assets/skill/application/prisma.jpg' } // GrapQL 타입으로 DB 쿼리, 테이블을 자동으로 생성해주는 DB 프록시
+
+    // { name: 'GraphQL', url: '/assets/skill/application/graphql.png' }, // 어플리케이션 레이어 쿼리 언어
+    // { name: 'Apollo', url: '/assets/skill/application/apollo.png' }, // GraphQL 서버, 클라이언트 구현을 제공해주는 프레임워크
+    // { name: 'Prisma', url: '/assets/skill/application/prisma.jpg' } // GrapQL 타입으로 DB 쿼리, 테이블을 자동으로 생성해주는 DB 프록시
 ];
 
 const Aws: Array<Skill> = [
