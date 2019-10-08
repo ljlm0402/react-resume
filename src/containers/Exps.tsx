@@ -93,18 +93,18 @@ const ExpList: Array<IExpList> = [
                     { title: 'CI / CD', content: 'Github webhook, CodeBuild, CodePipeline' },
                     { title: 'Monitoring', content: 'CloudWatch' }
                 ]
-            },
-
-            {
-                title: '푸딩, 스케줄러 서비스',
-                subtitle: '주문 현황 자동으로 변경하는 스케줄링 서버 개발',
-                mywork: [
-                    { title: 'Backend', content: 'Express, JavaScript' },
-                    { title: 'Server Build', content: 'WAS(Node Js, HTTP, HTTPS(ACM)), AWS' },
-                    { title: 'Load balancing', content: 'ALB, Route53' },
-                    { title: 'Monitoring', content: 'CloudWatch' }
-                ]
             }
+
+            // {
+            //     title: '푸딩, 스케줄러 서비스',
+            //     subtitle: '주문 현황 자동으로 변경하는 스케줄링 서버 개발',
+            //     mywork: [
+            //         { title: 'Backend', content: 'Express, JavaScript' },
+            //         { title: 'Server Build', content: 'WAS(Node Js, HTTP, HTTPS(ACM)), AWS' },
+            //         { title: 'Load balancing', content: 'ALB, Route53' },
+            //         { title: 'Monitoring', content: 'CloudWatch' }
+            //     ]
+            // }
         ]
     },
 
