@@ -81,7 +81,8 @@ const Utilities: Array<Skill> = [
     { name: 'Google Drive', url: '/assets/skill/utilities/drive.png' }, // 클라우드 기반 협업도구이자 파일저장/공유 서비스
     { name: 'Swagger', url: '/assets/skill/utilities/swagger.png' }, // RESTful 웹 서비스를 설계, 빌드, 문서화 도구
     { name: 'Zeit Now', url: '/assets/skill/utilities/zeit.png' }, // 정적 사이트 및 서버리스 기능을 위한 클라우드 플랫폼
-    { name: 'Netlify', url: '/assets/skill/utilities/netlify.png' } // 지속적 배포, 서버리스 기능을 갖춘 클라우드 플랫폼
+    { name: 'Netlify', url: '/assets/skill/utilities/netlify.png' }, // 지속적 배포, 서버리스 기능을 갖춘 클라우드 플랫폼
+    { name: 'Heroku', url: '/assets/skill/utilities/heroku.png' } // 지속적 배포, 서버리스 기능을 갖춘 클라우드 플랫폼
 ];
 
 const DevOps: Array<Skill> = [
@@ -97,11 +98,15 @@ const DevOps: Array<Skill> = [
     { name: 'Grunt', url: '/assets/skill/devops/grunt.png' }, // Task 기반의 자바스크립트용 커맨드 라인 빌드 툴
     { name: 'Babel', url: '/assets/skill/devops/babel.png' }, // 다음 버전의 자바스크립트 문법을 현재 사용 가능한 문법으로 변환
     { name: 'ESLint', url: '/assets/skill/devops/eslint.jpg' }, // 자바스크립트 코드 품질 도구
+    { name: 'TSLint', url: '/assets/skill/devops/tslint.png' }, // 타입스크립트 코드 품질 도구
+    { name: 'Prettier', url: '/assets/skill/devops/prettier.png' }, // 코드 포맷터
 
     { name: 'Puppeteer', url: '/assets/skill/devops/puppeteer.png' }, // Headless chrome API
 
     { name: 'Mocha', url: '/assets/skill/devops/mocha.png' }, // 자바스크립트 테스트 프레임 워크
-    { name: 'Jest', url: '/assets/skill/devops/jest.png' } // 자바스크립트 테스트 프레임 워크
+    { name: 'Jest', url: '/assets/skill/devops/jest.png' }, // 자바스크립트 테스트 프레임 워크
+
+    { name: 'Travis CI', url: '/assets/skill/devops/travis.jpeg'} // 오픈 소스 및 개인 프로젝트를위한 호스팅 된 지속적인 통합 서비스
 ];
 
 const Tools: Array<Skill> = [
