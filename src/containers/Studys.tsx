@@ -88,6 +88,44 @@ const StudyList: Array<IStudyList> = [
                 ]
             }
         ]
+    },
+
+    { 
+        name: 'DEVLOG',
+        subtitle: 'github.io 도메인을 사용하여 다양한 정보를 공유하는 사이트를 제작',
+        studys: [
+            {
+                link: [
+                    { title: "페이스북 링크", content: "https://www.facebook.com/groups/765872100510405/?ref=bookmarks" },
+                    { title: "카카오 링크", content: "https://open.kakao.com/o/gJcENvHb" },
+                    { title: "깃페이지 링크", content: "https://ljlm0402.github.io/" },
+                    { title: "GitHub", content: "https://github.com/ljlm0402/ljlm0402.github.io" }
+                ],
+                mywork: [
+                    { title: "Frontend", content: "Hexo - Melody, fancybox, fireworks" },
+                    { title: "Server Build", content: "GitHub Pages" }
+                ]
+            }
+        ]
+    },
+
+    {
+        name: "TS-Express",
+        subtitle: 'TypeScript Express REST API 개발',
+        studys: [
+            {
+                link: [
+                    { title: "GitHub", content: "https://github.com/ts-for-js/ts-express" }
+                ],
+                mywork: [
+                    { title: "Backend", content: "Node Js, TypeScript" },
+                    { title : "Database", content: "mongoDB, moongoose" },
+                    { title: "Testing", content: "Jest, supertest" },
+                    { title: "Lint", content: "TSLint" },
+                    { title: "CI / CD", content: "Travis CI / Heroku" } 
+                ]
+            }
+        ]
     }
 ];
 
