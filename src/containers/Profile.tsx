@@ -94,20 +94,21 @@ export const Profile = (): JSX.Element => {
                         <strong>임경민</strong> 26살
                     </span>
                 </ProfileImage>
-                    <ul>
-                        <li>깃허브:
+                    <p>안녕하세요. JavaScript, TypeScript로 개발하는 임경민입니다.<br />
+                    Best practices를 통한 Best performance 이끌어는것이 목표입니다.<br />
+                    목표를 달성하기 위해서 아키텍처, TDD, Clean Code 관심을 공부 및 프로젝트에 도입을 하고있습니다.<br />
+                    또한 자신만의 서비스를 구축해보는걸 목표로 다양한 개인 프로젝트를 만들어 보았습니다.<br />
+                    깃허브:
                             <Github>
                                 <img src='/assets/skill/devops/github.png' alt='github' />
                                 <a href='https://github.com/ljlm0402' target='_blank'> GitHub</a>
-                            </Github>
-                        </li>
-                        <li>블로그:
+                            </Github><br />
+                        블로그:
                             <Netlify>
                                 <img src='/assets/skill/utilities/netlify.png' alt='netlify' />
                                 <a href='https://ljlm0402.netlify.com/' target='_blank'> Netlify</a>
-                            </Netlify>
-                        </li>
-                    </ul>
+                            </Netlify><br />
+                    </p>
             </ProfileInfo>
         </ProfileBox>
     )
