@@ -106,7 +106,8 @@ const DevOps: Array<Skill> = [
     { name: 'Mocha', url: '/assets/skill/devops/mocha.png' }, // 자바스크립트 테스트 프레임 워크
     { name: 'Jest', url: '/assets/skill/devops/jest.png' }, // 자바스크립트 테스트 프레임 워크
 
-    { name: 'Travis CI', url: '/assets/skill/devops/travis.jpeg'} // 오픈 소스 및 개인 프로젝트를위한 호스팅 된 지속적인 통합 서비스
+    { name: 'Travis CI', url: '/assets/skill/devops/travis.jpeg' }, // 오픈 소스 및 개인 프로젝트를위한 호스팅 된 지속적인 통합 서비스
+    { name: 'Github Actions', url: '/assets/skill/devops/github-actions.png' } // CI / CD 모든 소프트웨어 워크 플로우를 쉽게 자동화
 ];
 
 const Tools: Array<Skill> = [
