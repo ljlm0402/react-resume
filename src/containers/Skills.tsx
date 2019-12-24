@@ -32,9 +32,10 @@ const Application: Array<Skill> = [
     { name: 'jQuery', url: '/assets/skill/application/jquery.png' }, // 사이드 조작을 단순화 하도록 설계된 크로스 플랫폼의 자바스크립트 라이브러리
 
     { name: 'Gatsby', url: '/assets/skill/application/gatsby.png' }, // 정적 HTML 생성기
+    { name: 'Hexo', url: '/assets/skill/application/hexo.png' }, // 빠르고 간단하고 강력한 블로그 프레임워크
 
-    // { name: 'GraphQL', url: '/assets/skill/application/graphql.png' }, // 어플리케이션 레이어 쿼리 언어
-    // { name: 'Apollo', url: '/assets/skill/application/apollo.png' }, // GraphQL 서버, 클라이언트 구현을 제공해주는 프레임워크
+    { name: 'GraphQL', url: '/assets/skill/application/graphql.png' }, // 어플리케이션 레이어 쿼리 언어
+    { name: 'Apollo', url: '/assets/skill/application/apollo.png' }, // GraphQL 서버, 클라이언트 구현을 제공해주는 프레임워크
     // { name: 'Prisma', url: '/assets/skill/application/prisma.jpg' } // GrapQL 타입으로 DB 쿼리, 테이블을 자동으로 생성해주는 DB 프록시
 ];
 
@@ -78,6 +79,8 @@ const Database: Array<Skill> = [
 
 const Utilities: Array<Skill> = [
     { name: 'Google Analytics', url: '/assets/skill/utilities/analytics.png' }, // 웹 로그 분석
+    { name: 'Google AdSense', url: '/assets/skill/utilities/adsense.jpg' }, // 구글 광고
+    { name: 'Google Tag Manager', url: '/assets/skill/utilities/tag-manager.png' }, // 태그 및 코드 업데이트
     { name: 'Google Drive', url: '/assets/skill/utilities/drive.png' }, // 클라우드 기반 협업도구이자 파일저장/공유 서비스
     { name: 'Swagger', url: '/assets/skill/utilities/swagger.png' }, // RESTful 웹 서비스를 설계, 빌드, 문서화 도구
     { name: 'Zeit Now', url: '/assets/skill/utilities/zeit.png' }, // 정적 사이트 및 서버리스 기능을 위한 클라우드 플랫폼
@@ -96,7 +99,7 @@ const DevOps: Array<Skill> = [
 
     { name: 'Webpack', url: '/assets/skill/devops/webpack.png' }, // 자바스크립트 모듈 번들러
     { name: 'Grunt', url: '/assets/skill/devops/grunt.png' }, // Task 기반의 자바스크립트용 커맨드 라인 빌드 툴
-    { name: 'Babel', url: '/assets/skill/devops/babel.png' }, // 다음 버전의 자바스크립트 문법을 현재 사용 가능한 문법으로 변환
+    // { name: 'Babel', url: '/assets/skill/devops/babel.png' }, // 다음 버전의 자바스크립트 문법을 현재 사용 가능한 문법으로 변환
     { name: 'ESLint', url: '/assets/skill/devops/eslint.jpg' }, // 자바스크립트 코드 품질 도구
     { name: 'TSLint', url: '/assets/skill/devops/tslint.png' }, // 타입스크립트 코드 품질 도구
     { name: 'Prettier', url: '/assets/skill/devops/prettier.png' }, // 코드 포맷터
@@ -112,6 +115,9 @@ const DevOps: Array<Skill> = [
 
 const Tools: Array<Skill> = [
     { name: 'Slack', url: '/assets/skill/tools/slack.jpg' }, // 클라우드 기반 팀 협업 도구
+    { name: 'notion', url: '/assets/skill/tools/notion.jpg' }, // 노트 앱
+    { name: 'Trello', url: '/assets/skill/tools/trello.png' }, // 웹 기반의 프로젝트 관리
+
     { name: 'JANDI', url: '/assets/skill/tools/jandi.png' }, // 업무를 위한 팀 커뮤니케이션
 
     { name: 'Visual Studio Code', url: '/assets/skill/tools/vscode.jpeg' }, // 마이크로소프트가 만든 소스 코드 편집기
