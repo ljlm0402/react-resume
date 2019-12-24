@@ -1,29 +1,37 @@
 > Resume
 
-[KOREA🇰🇷](./README.ko.md)
-
-Boilerplate
+Structure
 -----------
 
-```sh
-
-● /public : static file dir
-    - /assets : image file dir
-    - favicon.ico : home page icon
-    - index.html : index page
-    - manifest.json : PWA(Progressive Web App) 
-
-● /src : source file dir
-    - /components : components dir
-    - /containers : containers dir
-    - /interfaces : interfaces dir
-
-- now.json : now build env
-- tsconfig.json : typescript env
-- pacakge.json : npm package
-- .gitignore : github ignore env
-- .nowignore : now build ignore env
-
+```bash
+│
+├── /public
+│   ├── /assets
+│   │   
+│   ├── favicon.ico   
+│   ├── index.html
+│   └── manifest.json
+│   
+├── /src
+│   ├── /components
+│   │
+│   ├── /containers
+│   │
+│   ├── /interfaces
+│   │
+│   ├── App.tsx
+│   ├── index.scss
+│   ├── index.tsx
+│   ├── react-app-env.d.ts
+│   ├── serviceWorker.ts
+│   └── types.ts
+│   
+├── .gitignore
+├── .nowignore
+├── now.json
+├── package.json
+├── tsconfig.json
+└── yarn.lock
 ```
 
 Modules
@@ -37,25 +45,11 @@ Modules
 
 * <a href="https://www.npmjs.com/package/now">now</a> - Global Serverless Deployments
 
-Build
------
-
-<a href="https://zeit.co/docs">ZEIT Now</a> - The easiest way to depoly websites
-
-- [1] npm install -g now  /  Install now global
-- [2] now login  /  now account login
-- [3] git clone [git@github.com:ljlm0402/resume.git]  /  git clone repo
-
-* Command
-    * now dev => development localhost env
-    * now => login account project build
-
-++ TIP) GIT INTEGRATION
-        Select a GitHub reposiroty to automatically deploy every commit you push
-
-<img src="https://github.com/ljlm0402/resume/blob/master/screenshot/step_1.png" height=150> <img src="https://github.com/ljlm0402/resume/blob/master/screenshot/step_2.png" height=150>
-
-Link
+Blog
 ----
 
-* <a href="https://ljlm0402.netlify.com/project/resume/1">Blog</a>
+* [1탄, Zeit Now 웹 호스트 셋팅, cra 생성](https://ljlm0402.netlify.com/project/resume/1/)
+
+* [2탄, Github Webhook CI / CD](https://ljlm0402.netlify.com/project/resume/2/)
+
+* [3탄, 간단한 화면구성](https://ljlm0402.netlify.com/project/resume/3/)
