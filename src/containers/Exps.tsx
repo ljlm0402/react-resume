@@ -18,8 +18,29 @@ const ExpContainer = styled.section`
 
 const ExpList: Array<IExpList> = [
     {
+        name: '안랩',
+        date: '2020. 03. 02 ~ 재직중',
+        subtitle: '글로벌 통합보안 기업으로서 세계 수준의 기술력으로 개발한 솔루션과 전문적인 서비스 체계를 갖춘 기업 입니다.',
+        icon: '/assets/work/ahnlab.jpeg',
+        project: [
+            {
+                title: 'ICM 개발',
+                subtitle: '사내 솔루션 페이지 개발',
+                mywork: [
+                    { title: 'Backend', content: 'GoLang, Node.js, Python' },
+                    { title: 'Frontend', content: 'Vue.js, JavaScript, Vuex, Scss' },
+                    { title: 'Server Build', content: 'Web server(Nginx), RHEL8' },
+                    { title: 'Container Orchestration', content: 'Kubernetes, Docker' },
+                    { title: 'Database', content: 'Postgresql(SQL), MogoDB(NoSQL), Redis' },
+                    { title: 'CI / CD', content: 'Bitbucket, Bamboo' },
+                    { title: 'Tools', content: 'Jira, Confluence' }
+                ]
+            }
+        ]
+    },
+    {
         name: '(주)열두달',
-        date: '2018. 10. 01 ~ 재직중',
+        date: '2018. 10. 01 ~ 2020. 02. 29',
         subtitle: '단체음식을 배달 플랫폼 서비스를 하는 회사로써 홈페이지, 관리자 페이지, 등등 인프라 서비스를 구축하였습니다.',
         icon: '/assets/work/fooding.png',
         project: [

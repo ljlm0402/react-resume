@@ -19,24 +19,24 @@ const Application: Array<Skill> = [
     { name: 'Nginx', url: '/assets/skill/application/nginx.png' }, // 트래픽이 많은 웹사이트 확장성을 위해 설계한 비동기 이벤트 기반 구조의 웹 서버
     { name: 'Apache', url: '/assets/skill/application/apache.png' }, // HTTP 웹 서버
 
+    { name: 'Angular', url: '/assets/skill/application/angular.jpg' }, // 자바스크립트 기반의 오픈 소스 프론트엔드 웹 애플리케이션 프레임 워크
+    { name: 'NgRx', url: '/assets/skill/application/ngrx.png' }, // 앵귤러 상태관리 라이브러리
+    { name: 'RxJs', url: '/assets/skill/application/rxjs.png' }, // 비동기 및 이벤트 기반 프로그램을 작성하기 위한 라이브러리
+
     { name: 'React', url: '/assets/skill/application/react.png' }, // 페이스북에서 제공하는 자바스크립트 프론트엔드 라이브러리
     { name: 'Redux', url: '/assets/skill/application/redux.png' }, // 상태를 관리하기위한 오픈 소스 자바스크립트 라이브러리
 
-    { name: 'Angular', url: '/assets/skill/application/angular.jpg' }, // 자바스크립트 기반의 오픈 소스 프론트엔드 웹 애플리케이션 프레임 워크
+    { name: 'Vue.js', url: '/assets/skill/application/vuejs.png' }, // 자바스크립트 프론트엔드 라이브러리
+    { name: 'Vuex', url: '/assets/skill/application/vuex.png' }, // 뷰 상태관리 라이브러리
+    { name: 'Vue Router', url: '/assets/skill/application/vue-router.png' }, // 뷰 라우터 라이브러리
+
     { name: 'Scss', url: '/assets/skill/application/sass.png' }, // css를 보완하기 위한 기술로, 스타일 시트 언어
-    { name: 'RxJs', url: '/assets/skill/application/rxjs.png' }, // 비동기 및 이벤트 기반 프로그램을 작성하기 위한 라이브러리
+    
+    // { name: 'Gatsby', url: '/assets/skill/application/gatsby.png' }, // 정적 HTML 생성기
+    // { name: 'Hexo', url: '/assets/skill/application/hexo.png' }, // 빠르고 간단하고 강력한 블로그 프레임워크
 
-    { name: 'HTML', url: '/assets/skill/application/html.png' }, // 월드 와이드 웹(WWW)의 핵심 마크업 언어
-    { name: 'CSS', url: '/assets/skill/application/css.png' }, // 스타일 시트 언어
-    { name: 'Bootstrap', url: '/assets/skill/application/bootstrap.png' }, // 오픈형 UI 플러그인
-    { name: 'jQuery', url: '/assets/skill/application/jquery.png' }, // 사이드 조작을 단순화 하도록 설계된 크로스 플랫폼의 자바스크립트 라이브러리
-
-    { name: 'Gatsby', url: '/assets/skill/application/gatsby.png' }, // 정적 HTML 생성기
-    { name: 'Hexo', url: '/assets/skill/application/hexo.png' }, // 빠르고 간단하고 강력한 블로그 프레임워크
-
-    { name: 'GraphQL', url: '/assets/skill/application/graphql.png' }, // 어플리케이션 레이어 쿼리 언어
-    { name: 'Apollo', url: '/assets/skill/application/apollo.png' }, // GraphQL 서버, 클라이언트 구현을 제공해주는 프레임워크
-    // { name: 'Prisma', url: '/assets/skill/application/prisma.jpg' } // GrapQL 타입으로 DB 쿼리, 테이블을 자동으로 생성해주는 DB 프록시
+    // { name: 'GraphQL', url: '/assets/skill/application/graphql.png' }, // 어플리케이션 레이어 쿼리 언어
+    // { name: 'Apollo', url: '/assets/skill/application/apollo.png' }, // GraphQL 서버, 클라이언트 구현을 제공해주는 프레임워크
 ];
 
 const Aws: Array<Skill> = [
@@ -48,6 +48,7 @@ const Aws: Array<Skill> = [
     { name: 'DynamoDB', url: '/assets/skill/aws/dynamodb.png' }, // 관리형 NoSQL 데이터베이스
 
     { name: 'S3', url: '/assets/skill/aws/s3.png' }, // 클라우드상의 확장 가능한 스토리지
+    { name: 'EKS', url: '/assets/skill/aws/eks.png' }, // aws 쿠버네티스 관리형 서비스
 
     { name: 'ECR', url: '/assets/skill/aws/ecr.png' }, // 완전 관리형 Docker 컨테이너 레지스트리
     { name: 'ECS', url: '/assets/skill/aws/ecs.png' }, // Docker 컨테이너 실행 및 관리
@@ -63,6 +64,10 @@ const Aws: Array<Skill> = [
     { name: 'CloudFront', url: '/assets/skill/aws/cloudfront.png' }, // 전 세계 콘텐츠 전송 네트워크
     { name: 'Certificate Manager', url: '/assets/skill/aws/acm.png' }, // SSL/TLS 인증서 프로비저닝, 관리 및 배포
 
+    { name: 'SES', url: '/assets/skill/aws/ses.png' }, // 클라우드 기반 이메일 발송 서비스입니다.
+    { name: 'SNS', url: '/assets/skill/aws/sns.png' }, // 완전 관리형 게시/구독 메시징 서비스입니다.
+    { name: 'Chatbot', url: '/assets/skill/aws/chatbot.png' }, // AWS 리소스를 쉽게 모니터링하고 상호 작용하도록 지원하는 대화형 에이전트
+
     { name: 'IAM', url: '/assets/skill/aws/iam.png' }, // 사용자 액세스 및 암호화 키 관리
 
     { name: 'CloudTrail', url: '/assets/skill/aws/cloudtrail.png' }, // 사용자 활동 및 API 사용 추적
@@ -74,7 +79,9 @@ const Aws: Array<Skill> = [
 const Database: Array<Skill> = [
     { name: 'MySQL', url: '/assets/skill/database/mysql.png' }, // 관계형 데이터베이스 관리 시스템 (ORM: Object-relational mapping)
     { name: 'MariaDB', url: '/assets/skill/database/mariadb.png' }, // MySQL과 동일한 소스 코드를 기반으로 한 관계형 데이터베이스 관리 시스템 (ORM: Object-relational mapping)
-    { name: 'MongoDB', url: '/assets/skill/database/mongodb.png' } // 크로스 플랫폼 도큐먼트 지향 데이터베이스 시스템 (ODM: Object-document mapping)
+    { name: 'PostgreSQL', url: '/assets/skill/database/postgresql.png' },
+    { name: 'MongoDB', url: '/assets/skill/database/mongodb.png' }, // 크로스 플랫폼 도큐먼트 지향 데이터베이스 시스템 (ODM: Object-document mapping)
+    { name: 'Redis', url: '/assets/skill/database/redis.png' }
 ];
 
 const Utilities: Array<Skill> = [
@@ -83,39 +90,49 @@ const Utilities: Array<Skill> = [
     { name: 'Google Tag Manager', url: '/assets/skill/utilities/tag-manager.png' }, // 태그 및 코드 업데이트
     { name: 'Google Drive', url: '/assets/skill/utilities/drive.png' }, // 클라우드 기반 협업도구이자 파일저장/공유 서비스
     { name: 'Swagger', url: '/assets/skill/utilities/swagger.png' }, // RESTful 웹 서비스를 설계, 빌드, 문서화 도구
-    { name: 'Zeit Now', url: '/assets/skill/utilities/zeit.png' }, // 정적 사이트 및 서버리스 기능을 위한 클라우드 플랫폼
+    { name: 'Vercel', url: '/assets/skill/utilities/vercel.png' }, // 정적 사이트 및 서버리스 기능을 위한 클라우드 플랫폼
     { name: 'Netlify', url: '/assets/skill/utilities/netlify.png' }, // 지속적 배포, 서버리스 기능을 갖춘 클라우드 플랫폼
     { name: 'Heroku', url: '/assets/skill/utilities/heroku.png' } // 지속적 배포, 서버리스 기능을 갖춘 클라우드 플랫폼
 ];
 
 const DevOps: Array<Skill> = [
     { name: 'GitHub', url: '/assets/skill/devops/github.png' }, // 프로그램 등의 소스 코드 관리를 위한 분산 버전 관리 시스템
+    { name: 'Bitbucket', url: '/assets/skill/devops/bitbucket.png' }, // 아틀리시안 분산 버전 관리 시스템
 
     { name: 'Docker', url: '/assets/skill/devops/docker.png' }, // 컨테이너를 사용해 어플리케이션을 신속하게 구축, 테스트 및 배포할 수 있는 소프트웨어 플랫폼 
     { name: 'Docker Compose', url: '/assets/skill/devops/docker-compose.png' }, // 멀티 컨테이너 Docker 응용 프로그램을 정의하고 실행하기위한 도구
+    { name: 'Kubernets', url: '/assets/skill/devops/kubernets.png' },
+
+    { name: 'Elasticsearch', url: '/assets/skill/devops/elasticsearch.png' },
+    { name: 'Logstash', url: '/assets/skill/devops/logstash.png' },
+    { name: 'Kibana', url: '/assets/skill/devops/kibana.png' },
 
     { name: 'npm', url: '/assets/skill/devops/npm.png' }, // 자바스크립트 패키지 관리자
     { name: 'Yarn', url: '/assets/skill/devops/yarn.jpg' }, // 자바스크립트 패키지 관리자
 
     { name: 'Webpack', url: '/assets/skill/devops/webpack.png' }, // 자바스크립트 모듈 번들러
-    { name: 'Grunt', url: '/assets/skill/devops/grunt.png' }, // Task 기반의 자바스크립트용 커맨드 라인 빌드 툴
-    // { name: 'Babel', url: '/assets/skill/devops/babel.png' }, // 다음 버전의 자바스크립트 문법을 현재 사용 가능한 문법으로 변환
+    // { name: 'Grunt', url: '/assets/skill/devops/grunt.png' }, // Task 기반의 자바스크립트용 커맨드 라인 빌드 툴
+    { name: 'Babel', url: '/assets/skill/devops/babel.png' }, // 다음 버전의 자바스크립트 문법을 현재 사용 가능한 문법으로 변환
     { name: 'ESLint', url: '/assets/skill/devops/eslint.jpg' }, // 자바스크립트 코드 품질 도구
     { name: 'TSLint', url: '/assets/skill/devops/tslint.png' }, // 타입스크립트 코드 품질 도구
     { name: 'Prettier', url: '/assets/skill/devops/prettier.png' }, // 코드 포맷터
 
-    { name: 'Puppeteer', url: '/assets/skill/devops/puppeteer.png' }, // Headless chrome API
+    { name: 'Travis CI', url: '/assets/skill/devops/travis.jpeg' }, // 오픈 소스 및 개인 프로젝트를위한 호스팅 된 지속적인 통합 서비스
+    { name: 'Github Actions', url: '/assets/skill/devops/github-actions.png' }, // CI / CD 모든 소프트웨어 워크 플로우를 쉽게 자동화
+    { name: 'Bamboo', url: '/assets/skill/devops/bamboo.png' }, // 아틀리시안 CI / CD 툴
 
-    { name: 'Mocha', url: '/assets/skill/devops/mocha.png' }, // 자바스크립트 테스트 프레임 워크
+    // { name: 'Mocha', url: '/assets/skill/devops/mocha.png' }, // 자바스크립트 테스트 프레임 워크
     { name: 'Jest', url: '/assets/skill/devops/jest.png' }, // 자바스크립트 테스트 프레임 워크
 
-    { name: 'Travis CI', url: '/assets/skill/devops/travis.jpeg' }, // 오픈 소스 및 개인 프로젝트를위한 호스팅 된 지속적인 통합 서비스
-    { name: 'Github Actions', url: '/assets/skill/devops/github-actions.png' } // CI / CD 모든 소프트웨어 워크 플로우를 쉽게 자동화
+    { name: 'Puppeteer', url: '/assets/skill/devops/puppeteer.png' } // Headless chrome API
 ];
 
 const Tools: Array<Skill> = [
     { name: 'Slack', url: '/assets/skill/tools/slack.jpg' }, // 클라우드 기반 팀 협업 도구
-    { name: 'notion', url: '/assets/skill/tools/notion.jpg' }, // 노트 앱
+    { name: 'Notion', url: '/assets/skill/tools/notion.jpg' }, // 노트 앱
+
+    { name: 'Jira', url: '/assets/skill/tools/jira.png' }, // 웹 기반의 프로젝트 관리
+    { name: 'Confluence', url: '/assets/skill/tools/confluence.png' },
     { name: 'Trello', url: '/assets/skill/tools/trello.png' }, // 웹 기반의 프로젝트 관리
 
     { name: 'JANDI', url: '/assets/skill/tools/jandi.png' }, // 업무를 위한 팀 커뮤니케이션

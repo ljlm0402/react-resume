@@ -2,6 +2,8 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
+  "author": "AGUMON <ljlm0402@gmail.com>",
+  "license": "ISC",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -10,8 +12,6 @@
     "now-dev": "react-scripts start",
     "now-build": "react-scripts build"
   },
-  "author": "AGUMON",
-  "license": "ISC",
   "dependencies": {
     "@types/node": "12.0.12",
     "@types/react": "16.8.23",

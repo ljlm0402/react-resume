@@ -5,6 +5,16 @@ import styled from 'styled-components';
 // import types
 import { TABLET } from '../types';
 
+const JavaScript = styled.strong`
+    font-size: 15px;
+    color:#EFDB4E
+`;
+
+const TypeScript = styled.strong`
+    font-size: 15px;
+    color:#2876C3;
+`;
+
 const ProfileImage = styled.div`
     text-align: center;
 `;
@@ -91,25 +101,25 @@ export const Profile = (): JSX.Element => {
                     <img src="/assets/profile.jpeg" alt='프로필' /><br />
                     <span>
                         <span role='img' aria-label='developer'>👨🏻‍💻</span>
-                        <strong>임경민</strong> 26살
+                        <strong>임경민</strong> 27살 (94년생)
                     </span>
                 </ProfileImage>
-                    <p>안녕하세요. JavaScript, TypeScript로 개발하는 임경민입니다.<br />
-                    Best practices를 통한 Best performance 이끌어는것이 목표입니다.<br />
-                    목표를 달성하기 위해서 아키텍처, TDD, Clean Code 관심을 공부 및 프로젝트에 도입을 하고있습니다.<br />
-                    또한 자신만의 서비스를 구축해보는걸 목표로 다양한 개인 프로젝트를 만들어 보았습니다.<br />
-                    깃허브:
-                            <Github>
-                                <img src='/assets/skill/devops/github.png' alt='github' />
-                                <a href='https://github.com/ljlm0402' target='_blank'> GitHub</a>
-                            </Github><br />
-                        블로그:
-                            <Netlify>
-                                <img src='/assets/skill/utilities/netlify.png' alt='netlify' />
-                                <a href='https://ljlm0402.netlify.com/' target='_blank'> Netlify</a>
-                            </Netlify><br />
-                    </p>
+                <ul>
+                    <li><JavaScript>JavaScript</JavaScript>, <TypeScript>TypeScript</TypeScript> 주 언어로 사용하고있습니다.</li>
+                    <li>저의 개발 지향점은 <strong>Best practices</strong>를 통한 <strong>Best performance </strong> 이끌어내는 것입니다.</li>
+                    <li>관심 분야로는 Architecture, Clean Code, Design Pattern 이며, 공부를 진행하고 있습니다.</li>
+                    <li>자신만의 서비스를 구축해보는걸 목표로 다양한 개인 프로젝트를 만들어 보았습니다.</li>
+                </ul>
             </ProfileInfo>
+            <Github>
+                <img src='/assets/skill/devops/github.png' alt='github' />
+                <a href='https://github.com/ljlm0402' target='_blank'> 깃저장소</a>
+            </Github>&nbsp;&nbsp;&nbsp;
+            <Netlify>
+                <img src='/assets/skill/utilities/netlify.png' alt='netlify' />
+                <a href='https://ljlm0402.netlify.com/' target='_blank'> 블로그</a>
+            </Netlify>
         </ProfileBox>
     )
 };
+

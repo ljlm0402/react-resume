@@ -48,7 +48,7 @@ Modules
 Blog
 ----
 
-* [1탄, Zeit Now 웹 호스트 셋팅, cra 생성](https://ljlm0402.netlify.com/project/resume/1/)
+* [1탄, Vercel Now 웹 호스트 셋팅, cra 생성](https://ljlm0402.netlify.com/project/resume/1/)
 
 * [2탄, Github Webhook CI / CD](https://ljlm0402.netlify.com/project/resume/2/)
 

@@ -25,7 +25,7 @@ const HeaderBox = styled.header`
 export const Header = (): JSX.Element => {
     return (
         <HeaderBox>
-            <h1>경민, 이력서</h1>
+            <h1>안녕하세요! 임경민입니다.</h1>
         </HeaderBox>
     )
 };

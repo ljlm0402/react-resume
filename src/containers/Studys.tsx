@@ -84,7 +84,7 @@ const StudyList: Array<IStudyList> = [
                 ],
                 mywork: [
                     { title: 'Frontend', content: 'React, TypeScript, Scss, styled-components' },
-                    { title: 'Server Build', content: 'Node Js, Zeit Now, Github webhook' }
+                    { title: 'Server Build', content: 'Node Js, Vercel, Github webhook' }
                 ]
             }
         ]
