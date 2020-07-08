@@ -23,20 +23,11 @@ const Application: Array<Skill> = [
     { name: 'NgRx', url: '/assets/skill/application/ngrx.png' }, // 앵귤러 상태관리 라이브러리
     { name: 'RxJs', url: '/assets/skill/application/rxjs.png' }, // 비동기 및 이벤트 기반 프로그램을 작성하기 위한 라이브러리
 
-    { name: 'React', url: '/assets/skill/application/react.png' }, // 페이스북에서 제공하는 자바스크립트 프론트엔드 라이브러리
-    { name: 'Redux', url: '/assets/skill/application/redux.png' }, // 상태를 관리하기위한 오픈 소스 자바스크립트 라이브러리
-
     { name: 'Vue.js', url: '/assets/skill/application/vuejs.png' }, // 자바스크립트 프론트엔드 라이브러리
     { name: 'Vuex', url: '/assets/skill/application/vuex.png' }, // 뷰 상태관리 라이브러리
     { name: 'Vue Router', url: '/assets/skill/application/vue-router.png' }, // 뷰 라우터 라이브러리
 
     { name: 'Scss', url: '/assets/skill/application/sass.png' }, // css를 보완하기 위한 기술로, 스타일 시트 언어
-    
-    // { name: 'Gatsby', url: '/assets/skill/application/gatsby.png' }, // 정적 HTML 생성기
-    // { name: 'Hexo', url: '/assets/skill/application/hexo.png' }, // 빠르고 간단하고 강력한 블로그 프레임워크
-
-    // { name: 'GraphQL', url: '/assets/skill/application/graphql.png' }, // 어플리케이션 레이어 쿼리 언어
-    // { name: 'Apollo', url: '/assets/skill/application/apollo.png' }, // GraphQL 서버, 클라이언트 구현을 제공해주는 프레임워크
 ];
 
 const Aws: Array<Skill> = [
@@ -103,15 +94,14 @@ const DevOps: Array<Skill> = [
     { name: 'Docker Compose', url: '/assets/skill/devops/docker-compose.png' }, // 멀티 컨테이너 Docker 응용 프로그램을 정의하고 실행하기위한 도구
     { name: 'Kubernets', url: '/assets/skill/devops/kubernets.png' },
 
-    { name: 'Elasticsearch', url: '/assets/skill/devops/elasticsearch.png' },
-    { name: 'Logstash', url: '/assets/skill/devops/logstash.png' },
-    { name: 'Kibana', url: '/assets/skill/devops/kibana.png' },
+    { name: 'Elasticsearch', url: '/assets/skill/devops/elasticsearch.png' }, // 루씬 기반의 검색 엔진
+    { name: 'Logstash', url: '/assets/skill/devops/logstash.png' }, // 실시간 파이프라인 기능을 가진 오픈소스 데이터 수집 엔진
+    { name: 'Kibana', url: '/assets/skill/devops/kibana.png' }, // Elasticsearch 데이터를 시각화하고 Elastic Stack을 탐색하게 해주는 무료 오픈 소스 인터페이스
 
     { name: 'npm', url: '/assets/skill/devops/npm.png' }, // 자바스크립트 패키지 관리자
     { name: 'Yarn', url: '/assets/skill/devops/yarn.jpg' }, // 자바스크립트 패키지 관리자
 
     { name: 'Webpack', url: '/assets/skill/devops/webpack.png' }, // 자바스크립트 모듈 번들러
-    // { name: 'Grunt', url: '/assets/skill/devops/grunt.png' }, // Task 기반의 자바스크립트용 커맨드 라인 빌드 툴
     { name: 'Babel', url: '/assets/skill/devops/babel.png' }, // 다음 버전의 자바스크립트 문법을 현재 사용 가능한 문법으로 변환
     { name: 'ESLint', url: '/assets/skill/devops/eslint.jpg' }, // 자바스크립트 코드 품질 도구
     { name: 'TSLint', url: '/assets/skill/devops/tslint.png' }, // 타입스크립트 코드 품질 도구
