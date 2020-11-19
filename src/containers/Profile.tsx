@@ -111,6 +111,7 @@ export const Profile = (): JSX.Element => {
                     <li>자신만의 서비스를 구축해보는걸 목표로 다양한 개인 프로젝트를 만들어 보았습니다.</li>
                 </ul>
             </ProfileInfo>
+            <div>
             <Github>
                 <img src='/assets/skill/devops/github.png' alt='github' />
                 <a href='https://github.com/ljlm0402' target='_blank'> 깃저장소</a>
@@ -119,6 +120,7 @@ export const Profile = (): JSX.Element => {
                 <img src='/assets/skill/utilities/netlify.png' alt='netlify' />
                 <a href='https://ljlm0402.netlify.com/' target='_blank'> 블로그</a>
             </Netlify>
+            </div>
         </ProfileBox>
     )
 };
