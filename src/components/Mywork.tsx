@@ -1,14 +1,16 @@
 // import modules
-import React from 'react';
+import React from "react";
 
 // import interfaces
-import { IWork } from '../interfaces/interface';
+import { IWork } from "../interfaces/interface";
 
 /* eslint-disable */
 export const Mywork = (props: IWork): JSX.Element => {
-    const { work } = props;
+  const { work } = props;
 
-    return (
-        <li>{work.title} : {work.content}</li>
-    );
+  return (
+    <li>
+      {work.title} : {work.content}
+    </li>
+  );
 };

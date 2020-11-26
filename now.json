@@ -2,32 +2,63 @@
   "version": 2,
   "name": "resume",
   "builds": [
-    { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "build" } }
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": {
+        "distDir": "build"
+      }
+    }
   ],
   "routes": [
     {
       "src": "/static/(.*)",
-      "headers": { "cache-control": "s-maxage=31536000,immutable", "key": "Access-Control-Allow-Origin", "value": "*" },
+      "headers": {
+        "cache-control": "s-maxage=31536000,immutable",
+        "key": "Access-Control-Allow-Origin",
+        "value": "*"
+      },
       "dest": "/static/$1"
     },
-    { 
-      "src": "/assets/(.*)", 
-      "headers": { "cache-control": "s-maxage=604800" },
-      "dest": "/assets/$1" 
+    {
+      "src": "/assets/(.*)",
+      "headers": {
+        "cache-control": "s-maxage=604800"
+      },
+      "dest": "/assets/$1"
     },
-    { "src": "/favicon/(.*)", "dest": "/favicon/$1" },
-    { "src": "/asset-manifest.json", "dest": "/asset-manifest.json" },
-    { "src": "/manifest.json", "dest": "/manifest.json" },
-    { "src": "/precache-manifest.(.*)", "dest": "/precache-manifest.$1" },
+    {
+      "src": "/favicon/(.*)",
+      "dest": "/favicon/$1"
+    },
+    {
+      "src": "/asset-manifest.json",
+      "dest": "/asset-manifest.json"
+    },
+    {
+      "src": "/manifest.json",
+      "dest": "/manifest.json"
+    },
+    {
+      "src": "/precache-manifest.(.*)",
+      "dest": "/precache-manifest.$1"
+    },
     {
       "src": "/service-worker.js",
-      "headers": { "cache-control": "s-maxage=0" },
+      "headers": {
+        "cache-control": "s-maxage=0"
+      },
       "dest": "/service-worker.js"
     },
-    { "src": "/sockjs-node/(.*)", "dest": "/sockjs-node/$1" },
+    {
+      "src": "/sockjs-node/(.*)",
+      "dest": "/sockjs-node/$1"
+    },
     {
       "src": "/(.*)",
-      "headers": { "cache-control": "s-maxage=0" },
+      "headers": {
+        "cache-control": "s-maxage=0"
+      },
       "dest": "/index.html"
     }
   ]
